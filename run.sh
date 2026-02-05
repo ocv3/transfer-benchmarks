@@ -24,24 +24,74 @@ function clean_dir() {
   rm -r "$1"
 }
 
+function returnDelta() {
+    startTime=$(date +%s)
+    $1
+    delta=$(("$(date +%s) - $startTime"))
+    echo $delta
+}
+
+function wrMount() {
+  # 1: local path
+  # 2: s3 path
+  # 3: write
+  # 4: cache
+  json_mount=$(
+  jq -nc \
+    --arg Mount "$1" \
+    --argjson Targets "[$(
+      jq -nc \
+      --arg Profile "default" \
+      --arg Path "$2" \
+      --arg Write "$3" \
+      --arg Cache "$4" \
+      '$ARGS.named'
+    )]" '$ARGS.named'
+  )
+  wr mount -f -v --mount_json "$json_mount" & serverPID=$!
+  echo $serverPID
+}
 
 
-if [[ $1 == "openstack" ]]; then
+
+function test_s3_tool() {
+  # 1 Tool
+  # 2 Source Local
+  s3_path="ov3-transfer-test/test-transfer"
+
+  if [ "$1" == "s5cmd" ]; then
+    s5cmd \
+      --endpoint-url https://cog.sanger.ac.uk \
+      cp "$2" "s3://$s3_path/"
+  elif [ "$1" == "rclone" ]; then
+    echo "$1"
+  elif [ "$1" == "aws" ]; then
+    echo "$1"
+  elif [ "$1" == "wrMount" ]; then
+    wrMountPID=$(wrMount "$2" "$s3_path" "true" "false")
+
+    kill "$wrMountPID"
+  fi
+
+}
+
+
+if [ "$1" == "openstack" ]; then
   # Will test
   #   Tape station -> openstack VM volume
   #   Tape station -> openstack VM ssd (eg. /tmp)
-  dest_dirs=("/tmp/test-transfer" "/home/ubuntu/volume-mount/test-transfer")
-  for dest in "${dest_dirs[@]}"; do
-    echo "TEST FOR: Tape station -> $dest"
-    mkdir -p "$dest"
-    test_transfer "$dest" "$2"
-    clean_dir "$dest"
+  local_dest_dirs=("/tmp/test-transfer" "/home/ubuntu/volume-mount/test-transfer")
+  for local_dest in "${local_dest_dirs[@]}"; do
+    echo "TEST FOR: Tape station -> $local_dest"
+    mkdir -p "$local_dest"
+    test_transfer "$local_dest" "$2"
+    clean_dir "$local_dest"
   done
-elif [[ $1 == "headnode" ]]; then
+elif [ "$1" == "headnode" ]; then
   # Will test
   #   Tape station -> head node lustre
-  dest="/lustre/scratch126/gengen/teams/hgi/ov3/taipale_tapestation/test-transfer"
-  echo "TEST FOR: Tape station -> $dest"
-  test_transfer "$dest" "$2"
-  clean_dir "$dest"
+  local_dest="/lustre/scratch126/gengen/teams/hgi/ov3/taipale_tapestation/test-transfer"
+  echo "TEST FOR: Tape station -> $local_dest"
+  test_transfer "$local_dest" "$2"
+  clean_dir "$local_dest"
 fi
