@@ -2,7 +2,6 @@
 
 remote_test_dirs=('rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT' 'rcs-ajt208-server-mirror/coconut/var/www/tom/Logos/' 'rcs-ajt208-server-mirror/nutcase/wrk/data/bsahu/LoVo_Hep-TF_ChIP-seq/macs2/')
 s3_path="ov3-transfer-test/test-transfer"
-dry_run=$3
 
 
 function test_transfer() {
@@ -16,7 +15,7 @@ function test_transfer() {
     sleep 1
     startTime=$(date +%s)
 
-    sshpass -p "$2" rsync -av -h "${dry_run:""}" is525@rds.uis.cam.ac.uk:"$remote_dir" "$1"
+    sshpass -p "$2" rsync -av -h is525@rds.uis.cam.ac.uk:"$remote_dir" "$1"
 
     delta=$(("$(date +%s) - $startTime"))
     ((avg+=delta))
@@ -60,7 +59,7 @@ function prep_env() {
 
 function clear_s3_remote() {
   echo "CLEANING S3 REMOTE ON: $s3_path"
-  rclone delete -v "${dry_run:""}" "ov3-s3:$s3_path"
+  rclone delete -v "ov3-s3:$s3_path"
 }
 
 function test_s3_tool() {
@@ -70,12 +69,11 @@ function test_s3_tool() {
   echo "S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
   startTime=$(date +%s)
   if [ "$1" == "s5cmd" ]; then
-    s5cmd "${dry_run:""}" --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
+    s5cmd --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
   elif [ "$1" == "rclone" ]; then
-    rclone copy "${dry_run:""}" "$2" -v "ov3-s3:$s3_path"
+    rclone copy "$2" -v "ov3-s3:$s3_path"
   elif [ "$1" == "aws" ]; then
-    dr2=$([ "$dry_run" == "--dry-run" ] && dr2="--dryrun")
-    aws s3 --endpoint-url=https://cog.sanger.ac.uk cp "${dr2:""}" --recursive "$2" "s3://$s3_path"
+    aws s3 --endpoint-url=https://cog.sanger.ac.uk cp --recursive "$2" "s3://$s3_path"
   elif [ "$1" == "wrMount" ]; then
     wrMountPID=$(wrMount "$2" "$s3_path" "true" "false")
     $3
