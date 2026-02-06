@@ -6,6 +6,8 @@ dry_run=$([ "$3" == "--dry-run" ] && echo "--dry-run")
 
 
 function test_transfer() {
+  # 1: local dest
+  # 2: Password
   c=0
   avg=0
   for remote_dir in "${remote_test_dirs[@]}"; do
@@ -57,6 +59,7 @@ function prep_env() {
 }
 
 function clear_s3_remote() {
+  echo "CLEANING S3 REMOTE ON: $s3_path"
   rclone delete -v "$dry_run" "ov3-s3:$s3_path"
 }
 
@@ -72,7 +75,7 @@ function test_s3_tool() {
     rclone copy "$dry_run" "$2" -v "ov3-s3:$s3_path"
   elif [ "$1" == "aws" ]; then
     dr2=$([ "$dry_run" == "--dry-run" ] && dr2="--dryrun")
-    aws s3 --endpoint-url=https://cog.sanger.ac.uk cp "$dr2" -v --recursive "$2" "s3://$s3_path"
+    aws s3 --endpoint-url=https://cog.sanger.ac.uk cp "$dr2" --recursive "$2" "s3://$s3_path"
   elif [ "$1" == "wrMount" ]; then
     wrMountPID=$(wrMount "$2" "$s3_path" "true" "false")
     $3
@@ -93,10 +96,12 @@ if [ "$1" == "openstack" ]; then
   s3_tools=('rclone' 'aws' 's5cmd')
   prep_env "$1"
 
+  dir_num=0
   for local_dest in "${local_dest_dirs[@]}"; do
-    echo "TEST FOR $1: Tape station -> $local_dest"
+    ((dir_num++))
+    echo "TEST FOR $1: Tape station -> $local_dest/$dir_num"
     mkdir -p "$local_dest"
-    test_transfer "$local_dest" "$2"
+    test_transfer "$local_dest/$dir_num" "$2"
 
     for tool in "${s3_tools[@]}"; do
       test_s3_tool "$tool" "$local_dest/"
@@ -108,6 +113,7 @@ if [ "$1" == "openstack" ]; then
 elif [ "$1" == "headnode" ]; then
   # Will test
   #   Tape station -> head node lustre
+  #   Tape station -> ceph s3
   local_dest="/lustre/scratch126/gengen/teams/hgi/ov3/taipale_tapestation/test-transfer"
   s3_tools=('rclone' 'aws' 's5cmd')
   prep_env "$1"
