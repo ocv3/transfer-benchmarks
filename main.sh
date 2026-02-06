@@ -1,8 +1,14 @@
 #!/bin/bash
+# 1 == openstack | headnode
+# 2 == password
 
 remote_test_dirs=('rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT' 'rcs-ajt208-server-mirror/coconut/var/www/tom/Logos/' 'rcs-ajt208-server-mirror/nutcase/wrk/data/bsahu/LoVo_Hep-TF_ChIP-seq/macs2/')
 s3_path="ov3-transfer-test/test-transfer"
 
+function echo-log() {
+  echo "$1"
+  echo "$1" >> "$(pwd)"/script-out.txt
+}
 
 function test_transfer() {
   # 1: local dest
@@ -11,7 +17,7 @@ function test_transfer() {
   avg=0
   for remote_dir in "${remote_test_dirs[@]}"; do
     ((c+=1))
-    echo "RUN $((c))/${#remote_test_dirs[@]}: $remote_dir -> $1"
+    echo-log "SCRIPT-OUT: RUN $((c))/${#remote_test_dirs[@]}: $remote_dir -> $1"
     sleep 1
     startTime=$(date +%s)
 
@@ -19,13 +25,13 @@ function test_transfer() {
 
     delta=$(("$(date +%s) - $startTime"))
     ((avg+=delta))
-    echo "RUN $((c))/${#remote_test_dirs[@]} TIME TOOK: $delta seconds: $remote_dir -> $1"
+    echo-log "SCRIPT-OUT: RUN $((c))/${#remote_test_dirs[@]} TIME TOOK: $delta seconds: $remote_dir -> $1"
   done
-  echo "DOWNLOAD AVG FOR Tape station -> $1: $(( avg / ${#remote_test_dirs[@]})) seconds"
+  echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: $(( avg / ${#remote_test_dirs[@]})) seconds"
 }
 
 function clean_dir() {
-  echo "CLEANING: Removing $1..."
+  echo-log "SCRIPT-OUT: CLEANING: Removing $1..."
   rm -r "$1"
 }
 
@@ -58,7 +64,7 @@ function prep_env() {
 }
 
 function clear_s3_remote() {
-  echo "CLEANING S3 REMOTE ON: $s3_path"
+  echo-log "SCRIPT-OUT: CLEANING S3 REMOTE ON: $s3_path"
   rclone delete -v "ov3-s3:$s3_path"
 }
 
@@ -66,7 +72,7 @@ function test_s3_tool() {
   # 1 Tool
   # 2 Source Local
   # 3 Optional transfer
-  echo "S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
+  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
   startTime=$(date +%s)
   if [ "$1" == "s5cmd" ]; then
     s5cmd --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
@@ -80,7 +86,7 @@ function test_s3_tool() {
     kill "$wrMountPID"
   fi
   delta=$(("$(date +%s) - $startTime"))
-  echo "S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
+  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
 }
 
 
@@ -97,7 +103,7 @@ if [ "$1" == "openstack" ]; then
   dir_num=0
   for local_dest in "${local_dest_dirs[@]}"; do
     ((dir_num++))
-    echo "TEST FOR $1: Tape station -> $local_dest/$dir_num"
+    echo-log "SCRIPT-OUT: TEST FOR $1: Tape station -> $local_dest/$dir_num"
     mkdir -p "$local_dest"
     test_transfer "$local_dest/$dir_num" "$2"
 
@@ -117,7 +123,7 @@ elif [ "$1" == "headnode" ]; then
   s3_tools=('rclone' 'aws' 's5cmd')
   prep_env "$1"
 
-  echo "TEST FOR $1: Tape station -> $local_dest"
+  echo-log "SCRIPT-OUT: TEST FOR $1: Tape station -> $local_dest"
   test_transfer "$local_dest" "$2"
 
   for tool in "${s3_tools[@]}"; do
