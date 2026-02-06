@@ -93,7 +93,7 @@ if [ "$1" == "openstack" ]; then
   #   Openstack Volume -> direct S3
   #   Openstack ssd -> direct S3
   local_dest_dirs=("/tmp/test-transfer" "/home/ubuntu/volume-mount/test-transfer")
-  s3_tools=('rclone' 'aws' 's5cmd')
+  s3_tools=('rclone' 's5cmd')
   prep_env "$1"
 
   dir_num=0
@@ -104,6 +104,7 @@ if [ "$1" == "openstack" ]; then
     test_transfer "$local_dest/$dir_num" "$2"
 
     for tool in "${s3_tools[@]}"; do
+      rclone copy test.txt "ov3-s3:$s3_path"
       test_s3_tool "$tool" "$local_dest/"
       clear_s3_remote
     done
