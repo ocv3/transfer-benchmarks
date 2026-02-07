@@ -32,7 +32,7 @@ function test_transfer() {
 
 function clean_dir() {
   echo-log "SCRIPT-OUT: CLEANING: Removing $1..."
-  rm -r "$1"
+  sudo rm -rf "$1"
 }
 
 
@@ -61,6 +61,8 @@ function prep_env() {
   if [ "$1" == "headnode" ]; then
     module load rclone-1.65.1/perl-5.38.0
   fi
+  clean_dir "$2"
+  clear_s3_remote
 }
 
 function clear_s3_remote() {
@@ -98,7 +100,9 @@ if [ "$1" == "openstack" ]; then
   #   Openstack ssd -> direct S3
   local_dest_dirs=("/tmp/test-transfer" "/home/ubuntu/volume-mount/test-transfer")
   s3_tools=('rclone' 's5cmd')
-  prep_env "$1"
+  for local_dest in "${local_dest_dirs[@]}"; do
+    prep_env "$1" "$local_dest"
+  done
 
   dir_num=0
   for local_dest in "${local_dest_dirs[@]}"; do
@@ -115,6 +119,11 @@ if [ "$1" == "openstack" ]; then
 
     clean_dir "$local_dest"
   done
+
+  exit
+  wrMountDir="/home/ubuntu/volume-mount/wrMount"
+  test_s3_tool "wrMount" "$wrMountDir" "test_transfer $wrMountDir $2"
+
 elif [ "$1" == "headnode" ]; then
   # Will test
   #   Tape station -> head node lustre
@@ -122,6 +131,8 @@ elif [ "$1" == "headnode" ]; then
   local_dest="/lustre/scratch126/gengen/teams/hgi/ov3/taipale_tapestation/test-transfer"
   s3_tools=('rclone' 'aws' 's5cmd')
   prep_env "$1"
+  clean_dir "$local_dest"
+  mkdir -p "$local_dest"
 
   echo-log "SCRIPT-OUT: TEST FOR $1: Tape station -> $local_dest"
   test_transfer "$local_dest" "$2"
