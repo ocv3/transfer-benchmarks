@@ -30,10 +30,7 @@ function test_transfer() {
   echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: $(( avg / ${#remote_test_dirs[@]})) seconds"
 }
 
-function clean_dir() {
-  echo-log "SCRIPT-OUT: CLEANING: Removing $1..."
-  sudo rm -rf "$1"
-}
+
 
 
 function wrMount() {
@@ -65,7 +62,14 @@ function prep_env() {
   clear_s3_remote
 }
 
+function clean_dir() {
+  echo-log "SCRIPT-OUT: SIZE OF LOCAL-DIR $(du -sh "$1")"
+  echo-log "SCRIPT-OUT: CLEANING: Removing $1..."
+  sudo rm -rf "$1"
+}
+
 function clear_s3_remote() {
+  echo-log "SCRIPT-OUT: SIZE OF S3 REMOTE:$(rclone size "ov3-s3:$s3_path")"
   echo-log "SCRIPT-OUT: CLEANING S3 REMOTE ON: $s3_path"
   rclone delete -v "ov3-s3:$s3_path"
 }
