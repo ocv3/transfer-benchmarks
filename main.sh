@@ -31,7 +31,7 @@ function test_transfer() {
     ((avg+=delta))
     echo-log "SCRIPT-OUT: RUN $((c))/${#remote_test_dirs[@]} TIME TOOK: $delta seconds: $remote_dir -> $1"
   done
-
+  echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: TOTAL TIME TOOK $avg"
   rate=$(( $(du -s / | cut -f1) / avg ))
   echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: $( echo $rate | numfmt --to=iec )/second"
 }
