@@ -40,23 +40,35 @@ function test_transfer() {
 function wrMount() {
   # 1: local path
   # 2: s3 path
-  # 3: write
-  # 4: cache
-  json_mount=$(
-  jq -nc \
-    --arg Mount "$1" \
-    --argjson Targets "[$(
-      jq -nc \
-      --arg Profile "default" \
-      --arg Path "$2" \
-      --arg Write "$3" \
-      --arg Cache "$4" \
-      '$ARGS.named'
-    )]" '$ARGS.named'
-  )
+  json_mount="[{\"Mount\":\"$1\",\"Targets\":[{\"Profile\":\"default\",\"Path\":\"$2\",\"Write\":true,\"Cache\":false}]}]"
   sleep 5
   wr mount -f -v --mount_json "$json_mount" & serverPID=$!
   echo $serverPID
+}
+
+function test_s3_tool() {
+  # 1 Tool
+  # 2 Source Local
+  # 3 Optional transfer
+  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
+  startTime=$(date +%s)
+  if [ "$1" == "s5cmd" ]; then
+    s5cmd --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
+  elif [ "$1" == "rclone" ]; then
+    rclone copy "$2" -v "ov3-s3:$s3_path"
+  elif [ "$1" == "aws" ]; then
+    aws s3 --endpoint-url=https://cog.sanger.ac.uk cp --recursive "$2" "s3://$s3_path"
+  elif [ "$1" == "aws-headnode" ]; then
+    /software/hgi/softpack/installs/groups/hgi//aws/1-scripts/aws s3 --endpoint-url=https://cog.sanger.ac.uk \
+    cp --recursive "$2" "s3://$s3_path"
+  elif [ "$1" == "wrMount" ]; then
+    wrMountPID=$(wrMount "$2" "$s3_path")
+    $3
+    kill "$wrMountPID"
+    umount $2
+  fi
+  delta=$(("$(date +%s) - $startTime"))
+  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
 }
 
 function prep_env() {
@@ -79,26 +91,6 @@ function clear_s3_remote() {
   rclone delete -v "ov3-s3:$s3_path"
 }
 
-function test_s3_tool() {
-  # 1 Tool
-  # 2 Source Local
-  # 3 Optional transfer
-  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
-  startTime=$(date +%s)
-  if [ "$1" == "s5cmd" ]; then
-    s5cmd --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
-  elif [ "$1" == "rclone" ]; then
-    rclone copy "$2" -v "ov3-s3:$s3_path"
-  elif [ "$1" == "aws" ]; then
-    aws s3 --endpoint-url=https://cog.sanger.ac.uk cp --recursive "$2" "s3://$s3_path"
-  elif [ "$1" == "wrMount" ]; then
-    wrMountPID=$(wrMount "$2" "$s3_path" "true" "false")
-    $3
-    kill "$wrMountPID"
-  fi
-  delta=$(("$(date +%s) - $startTime"))
-  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
-}
 
 
 if [ "$1" == "openstack" ]; then
@@ -129,15 +121,16 @@ if [ "$1" == "openstack" ]; then
     clean_dir "$local_dest"
   done
 
-  wrMountDir="/home/ubuntu/volume-mount/wrMount"
+  wrMountDir="/home/ubuntu/wrMount"
   test_s3_tool "wrMount" "$wrMountDir" "test_transfer $wrMountDir $2"
+
 
 elif [ "$1" == "headnode" ]; then
   # Will test
   #   Tape station -> head node lustre
   #   Tape station -> ceph s3
   local_dest="/lustre/scratch126/gengen/teams/hgi/ov3/taipale_tapestation/test-transfer"
-  s3_tools=('rclone' 'aws' 's5cmd')
+  s3_tools=('rclone' 'aws-headnode')
   prep_env "$1"
   clean_dir "$local_dest"
   mkdir -p "$local_dest"
