@@ -67,7 +67,7 @@ function test_s3_tool() {
     wrMountPID=$(wrMount "$2" "$s3_path")
     $3
     kill "$wrMountPID"
-    umount $2
+    umount "$2"
   fi
   delta=$(("$(date +%s) - $startTime"))
   echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
