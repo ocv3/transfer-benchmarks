@@ -31,7 +31,9 @@ function test_transfer() {
     ((avg+=delta))
     echo-log "SCRIPT-OUT: RUN $((c))/${#remote_test_dirs[@]} TIME TOOK: $delta seconds: $remote_dir -> $1"
   done
-  echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: $(( avg / ${#remote_test_dirs[@]})) seconds"
+
+  rate=$(( $(du -s / | cut -f1) / avg ))
+  echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: $( echo $rate | numfmt --to=iec )/second"
 }
 
 
@@ -69,6 +71,8 @@ function test_s3_tool() {
   fi
   delta=$(("$(date +%s) - $startTime"))
   echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
+  rate=$(( $(du -s / | cut -f1) / delta ))
+  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) SPEED TRANSFER: $( echo $rate | numfmt --to=iec )/second"
 }
 
 function prep_env() {
@@ -122,7 +126,7 @@ if [ "$1" == "openstack" ]; then
   done
 
   wrMountDir="/home/ubuntu/wrMount"
-  test_s3_tool "wrMount" "$wrMountDir" "test_transfer $wrMountDir $2"
+  test_s3_tool "wrMount" "$wrMountDir" "test_transfer \"$wrMountDir\" \"$2\""
 
 
 elif [ "$1" == "headnode" ]; then
