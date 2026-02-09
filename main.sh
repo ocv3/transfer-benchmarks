@@ -2,7 +2,11 @@
 # 1 == openstack | headnode
 # 2 == password
 
-remote_test_dirs=('rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT' 'rcs-ajt208-server-mirror/coconut/var/www/tom/Logos/' 'rcs-ajt208-server-mirror/nutcase/wrk/data/bsahu/LoVo_Hep-TF_ChIP-seq/macs2/')
+remote_test_dirs=(
+'rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT'
+'rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/'
+'rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/'
+)
 s3_path="ov3-transfer-test/test-transfer"
 
 function echo-log() {
@@ -50,6 +54,7 @@ function wrMount() {
       '$ARGS.named'
     )]" '$ARGS.named'
   )
+  sleep 5
   wr mount -f -v --mount_json "$json_mount" & serverPID=$!
   echo $serverPID
 }
@@ -124,7 +129,6 @@ if [ "$1" == "openstack" ]; then
     clean_dir "$local_dest"
   done
 
-  exit
   wrMountDir="/home/ubuntu/volume-mount/wrMount"
   test_s3_tool "wrMount" "$wrMountDir" "test_transfer $wrMountDir $2"
 
