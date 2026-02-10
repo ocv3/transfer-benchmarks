@@ -26,7 +26,7 @@ function test_transfer() {
     sleep 1
     startTime=$(date +%s)
 
-    sshpass -p "$2" rsync -rtv -h is525@rds.uis.cam.ac.uk:"$remote_dir" "$1"
+    sshpass -p "$2" rsync -P -rtv -h is525@rds.uis.cam.ac.uk:"$remote_dir" "$1"
 
     delta=$(("$(date +%s) - $startTime"))
     ((avg+=delta))
