@@ -1,0 +1,2261 @@
+SCRIPT-OUT: SIZE OF LOCAL-DIR 64G	/tmp/test-transfer
+SCRIPT-OUT: CLEANING: Removing /tmp/test-transfer...
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 161
+Total size: 59.378 GiB (63756660348 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_003_2.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_003_1.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_002_2.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_001_1.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_001_2.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_002_1.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_000_1.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_000_2.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb: Deleted
+2026/02/09 17:08:50 INFO  : 1/GP5D_genomic_004_2.fastq.gz: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv: Deleted
+2026/02/09 17:08:50 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: Deleted
+2026/02/09 17:08:51 INFO  : 1/GP5D_genomic_004_1.fastq.gz: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP1_R1D41427.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP1_probdist.ipynb: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP1_R2D41427.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR1_rawRC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAPR2_rawRC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/GP5D_genomic_005_2.fastq.gz: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/TabToSSMD.py: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT116_Dataanalysis.ipynb: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/Untitled.ipynb: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HAP1/merge.pair: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT116_Rep2_rawRC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR1_d4filtbeforeinput.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR1_guideUC_Lib.csv.gz: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR1_RC.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR2_d4filtbeforeinput.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR2_guideUC_Lib.csv.gz: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_Inputfilt.ipynb: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_Probdist.ipynb: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR2_RC.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UC_dist.png: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCTR1_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:08:51 INFO  : 1/HAP1HCT/HCT_R1_guideUC_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R1_D414guideUC_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCTR2_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2_guideUC_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:08:52 INFO  : 1/HAP1HCT/Untitled.ipynb: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : 1/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg: Deleted
+2026/02/09 17:08:52 INFO  : test.txt: Deleted
+2026/02/09 17:08:52 INFO  : 1/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg: Deleted
+2026/02/09 17:08:53 INFO  : 1/GP5D_genomic_006_2.fastq.gz: Deleted
+2026/02/09 17:08:53 INFO  : 1/GP5D_genomic_006_1.fastq.gz: Deleted
+2026/02/09 17:08:53 INFO  : 1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: Deleted
+du: cannot access '/home/ubuntu/volume-mount/test-transfer': No such file or directory
+SCRIPT-OUT: SIZE OF LOCAL-DIR 
+SCRIPT-OUT: CLEANING: Removing /home/ubuntu/volume-mount/test-transfer...
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 0
+Total size: 0 B (0 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: TEST FOR openstack: Tape station -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 1/3: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /tmp/test-transfer/1
+receiving incremental file list
+created directory /tmp/test-transfer/1
+HAP1HCT/
+HAP1HCT/HCT116_Dataanalysis.ipynb
+HAP1HCT/HCT116_Rep1_rawRC_dist.png
+HAP1HCT/HCT116_Rep1_rawRC_dist_original.png
+HAP1HCT/HCT116_Rep2_rawRC_dist.png
+HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz
+HAP1HCT/HCTR1_RC.csv
+HAP1HCT/HCTR1_RC_PCT_Lib.csv
+HAP1HCT/HCTR1_d4filtbeforeinput.csv
+HAP1HCT/HCTR1_guideUC_Lib.csv.gz
+HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz
+HAP1HCT/HCTR2_RC.csv
+HAP1HCT/HCTR2_RC_PCT_Lib.csv
+HAP1HCT/HCTR2_d4filtbeforeinput.csv
+HAP1HCT/HCTR2_guideUC_Lib.csv.gz
+HAP1HCT/HCT_Inputfilt.ipynb
+HAP1HCT/HCT_Probdist.ipynb
+HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R1D14_guideType_UC_dist.png
+HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R1D27_guideType_UC_dist.png
+HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R1D4_guideType_UC_dist.png
+HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R1_D414guideUC_dist.png
+HAP1HCT/HCT_R1_guideUC_dist.png
+HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R2_guideUC_dist.png
+HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv
+HAP1HCT/Untitled.ipynb
+HAP1HCT/.ipynb_checkpoints/
+HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb
+HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb
+HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb
+HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+HAP1HCT/HAP1/
+HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz
+HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv
+HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv
+HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv
+HAP1HCT/HAP1/HAP1_R1D41427.csv
+HAP1HCT/HAP1/HAP1_R2D41427.csv
+HAP1HCT/HAP1/HAP1_dataanalysis.ipynb
+HAP1HCT/HAP1/HAP1_probdist.ipynb
+HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png
+HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png
+HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png
+HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png
+HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv
+HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv
+HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv
+HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv
+HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv
+HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png
+HAP1HCT/HAP1/HAPR1_rawRC_dist.png
+HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv
+HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png
+HAP1HCT/HAP1/HAPR2_rawRC_dist.png
+HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png
+HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png
+HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png
+HAP1HCT/HAP1/HAP_R1_guideUC_dist.png
+HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png
+HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png
+HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png
+HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png
+HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png
+HAP1HCT/HAP1/HAP_R2_guideUC_dist.png
+HAP1HCT/HAP1/TabToSSMD.py
+HAP1HCT/HAP1/Untitled.ipynb
+HAP1HCT/HAP1/merge.pair
+HAP1HCT/HAP1/.ipynb_checkpoints/
+HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb
+HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb
+HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+
+sent 1.65K bytes  received 23.76G bytes  60.22M bytes/sec
+total size is 23.75G  speedup is 1.00
+SCRIPT-OUT: RUN 1/3 TIME TOOK: 394 seconds: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 2/3: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /tmp/test-transfer/1
+receiving incremental file list
+./
+LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg
+SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg
+SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg
+SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg
+SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg
+SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg
+SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg
+SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg
+SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg
+SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg
+SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg
+SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg
+SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg
+SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg
+SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg
+SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg
+SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg
+SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg
+SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg
+SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg
+SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg
+SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg
+SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg
+SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg
+SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg
+SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg
+SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg
+SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg
+SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg
+SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg
+Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg
+Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg
+Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg
+Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg
+Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg
+Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg
+Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg
+Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg
+Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg
+Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg
+Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg
+Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg
+Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg
+TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg
+Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg
+
+sent 1.22K bytes  received 11.16M bytes  4.47M bytes/sec
+total size is 11.15M  speedup is 1.00
+SCRIPT-OUT: RUN 2/3 TIME TOOK: 2 seconds: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 3/3: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /tmp/test-transfer/1
+receiving incremental file list
+./
+GP5D_genomic_000_1.fastq.gz
+GP5D_genomic_000_2.fastq.gz
+GP5D_genomic_001_1.fastq.gz
+GP5D_genomic_001_2.fastq.gz
+GP5D_genomic_002_1.fastq.gz
+GP5D_genomic_002_2.fastq.gz
+GP5D_genomic_003_1.fastq.gz
+GP5D_genomic_003_2.fastq.gz
+GP5D_genomic_004_1.fastq.gz
+GP5D_genomic_004_2.fastq.gz
+GP5D_genomic_005_1.fastq.gz
+GP5D_genomic_005_2.fastq.gz
+GP5D_genomic_006_1.fastq.gz
+GP5D_genomic_006_2.fastq.gz
+
+sent 293 bytes  received 44.91G bytes  145.10M bytes/sec
+total size is 44.90G  speedup is 1.00
+SCRIPT-OUT: RUN 3/3 TIME TOOK: 309 seconds: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /tmp/test-transfer/1
+SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> /tmp/test-transfer/1: TOTAL TIME TOOK 705
+SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> /tmp/test-transfer/1: 93M/second
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone): /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+2026/02/09 17:21:29 INFO  : 1/GP5D_genomic_001_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:21:30 INFO  : 1/GP5D_genomic_000_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:21:32 INFO  : 1/GP5D_genomic_000_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:21:43 INFO  : 
+Transferred:   	    8.427 GiB / 63.946 GiB, 13%, 158.176 MiB/s, ETA 5m59s
+Checks:                 0 / 0, -, Listed 167
+Transferred:            3 / 161, 2%
+Elapsed time:       1m0.0s
+Transferring:
+ *                 1/GP5D_genomic_001_1.fastq.gz: 96% /1.402Gi, 25.218Mi/s, 2s
+ *                 1/GP5D_genomic_002_1.fastq.gz: 49% /1.276Gi, 52.539Mi/s, 12s
+ *                 1/GP5D_genomic_002_2.fastq.gz: 44% /1.304Gi, 55.037Mi/s, 13s
+ *                 1/GP5D_genomic_003_1.fastq.gz: 29% /1.444Gi, 49.374Mi/s, 21s
+
+2026/02/09 17:21:47 INFO  : 1/GP5D_genomic_001_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:21:57 INFO  : 1/GP5D_genomic_002_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:21:58 INFO  : 1/GP5D_genomic_002_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:22:03 INFO  : 1/GP5D_genomic_003_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:22:43 INFO  : 
+Transferred:   	   17.049 GiB / 63.946 GiB, 27%, 155.511 MiB/s, ETA 5m8s
+Checks:                 0 / 0, -, Listed 167
+Transferred:            7 / 161, 4%
+Elapsed time:       2m0.0s
+Transferring:
+ *                 1/GP5D_genomic_003_2.fastq.gz: 75% /1.444Gi, 21.544Mi/s, 17s
+ *                 1/GP5D_genomic_004_1.fastq.gz: 74% /2.706Gi, 48.484Mi/s, 14s
+ *                 1/GP5D_genomic_004_2.fastq.gz: 88% /1.910Gi, 41.806Mi/s, 5s
+ *                 1/GP5D_genomic_005_1.fastq.gz: 30% /4.568Gi, 46.148Mi/s, 1m10s
+
+2026/02/09 17:22:50 INFO  : 1/GP5D_genomic_004_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:22:59 INFO  : 1/GP5D_genomic_003_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:23:01 INFO  : 1/GP5D_genomic_004_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:23:43 INFO  : 
+Transferred:   	   25.998 GiB / 63.946 GiB, 41%, 170.226 MiB/s, ETA 3m48s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           10 / 161, 6%
+Elapsed time:       3m0.0s
+Transferring:
+ *                 1/GP5D_genomic_005_1.fastq.gz: 93% /4.568Gi, 46.188Mi/s, 6s
+ *                 1/GP5D_genomic_005_2.fastq.gz: 49% /4.418Gi, 45.728Mi/s, 49s
+ *                 1/GP5D_genomic_006_1.fastq.gz: 17% /7.933Gi, 46.024Mi/s, 2m26s
+ *                 1/GP5D_genomic_006_2.fastq.gz: 15% /7.963Gi, 44.918Mi/s, 2m33s
+
+2026/02/09 17:23:55 INFO  : 1/GP5D_genomic_005_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:23:55 INFO  : 1/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg: Copied (new)
+2026/02/09 17:23:55 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:55 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:55 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:55 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:55 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg: Copied (new)
+2026/02/09 17:23:56 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg: Copied (new)
+2026/02/09 17:23:56 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:56 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:23:56 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:56 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:56 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:56 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:57 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:58 INFO  : 1/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:58 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:58 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:58 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:58 INFO  : 1/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:58 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:23:58 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg: Copied (new)
+2026/02/09 17:23:59 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg: Copied (new)
+2026/02/09 17:23:59 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:23:59 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg: Copied (new)
+2026/02/09 17:23:59 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:23:59 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:00 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg: Copied (new)
+2026/02/09 17:24:00 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:24:00 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg: Copied (new)
+2026/02/09 17:24:00 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:00 INFO  : 1/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:00 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:01 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:01 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg: Copied (new)
+2026/02/09 17:24:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg: Copied (new)
+2026/02/09 17:24:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg: Copied (new)
+2026/02/09 17:24:03 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:04 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:04 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:24:04 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg: Copied (new)
+2026/02/09 17:24:05 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:24:05 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:24:05 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:24:05 INFO  : 1/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:05 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:05 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:06 INFO  : 1/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg: Copied (new)
+2026/02/09 17:24:07 INFO  : 1/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg: Copied (new)
+2026/02/09 17:24:07 INFO  : 1/HAP1HCT/HCT116_Dataanalysis.ipynb: Copied (new)
+2026/02/09 17:24:07 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist.png: Copied (new)
+2026/02/09 17:24:07 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png: Copied (new)
+2026/02/09 17:24:07 INFO  : 1/HAP1HCT/HCT116_Rep2_rawRC_dist.png: Copied (new)
+2026/02/09 17:24:07 INFO  : 1/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz: Copied (new)
+2026/02/09 17:24:27 INFO  : 1/HAP1HCT/HCTR1_RC.csv: Multi-thread Copied (new)
+2026/02/09 17:24:34 INFO  : 1/GP5D_genomic_005_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:24:36 INFO  : 1/HAP1HCT/HCTR1_d4filtbeforeinput.csv: Copied (new)
+2026/02/09 17:24:36 INFO  : 1/HAP1HCT/HCTR1_guideUC_Lib.csv.gz: Copied (new)
+2026/02/09 17:24:36 INFO  : 1/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz: Copied (new)
+2026/02/09 17:24:43 INFO  : 
+Transferred:   	   35.522 GiB / 63.946 GiB, 56%, 174.592 MiB/s, ETA 2m46s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           84 / 161, 52%
+Elapsed time:       4m0.0s
+Transferring:
+ *                 1/GP5D_genomic_006_1.fastq.gz: 51% /7.933Gi, 47.866Mi/s, 1m22s
+ *                 1/GP5D_genomic_006_2.fastq.gz: 49% /7.963Gi, 48.466Mi/s, 1m25s
+ *                1/HAP1HCT/HCTR1_RC_PCT_Lib.csv: 24% /2.134Gi, 44.166Mi/s, 37s
+ *                        1/HAP1HCT/HCTR2_RC.csv: 27% /883.652Mi, 40.918Mi/s, 15s
+
+2026/02/09 17:25:00 INFO  : 1/HAP1HCT/HCTR2_RC.csv: Multi-thread Copied (new)
+2026/02/09 17:25:23 INFO  : 1/HAP1HCT/HCTR1_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 17:25:24 INFO  : 1/HAP1HCT/HCTR2_d4filtbeforeinput.csv: Copied (new)
+2026/02/09 17:25:24 INFO  : 1/HAP1HCT/HCTR2_guideUC_Lib.csv.gz: Copied (new)
+2026/02/09 17:25:24 INFO  : 1/HAP1HCT/HCT_Inputfilt.ipynb: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_Probdist.ipynb: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UC_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UC_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UC_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1_D414guideUC_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R1_guideUC_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:25 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 17:25:26 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:26 INFO  : 1/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:26 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 17:25:26 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 17:25:26 INFO  : 1/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 17:25:26 INFO  : 1/HAP1HCT/HCT_R2_guideUC_dist.png: Copied (new)
+2026/02/09 17:25:43 INFO  : 
+Transferred:   	   45.715 GiB / 63.946 GiB, 71%, 176.319 MiB/s, ETA 1m45s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          108 / 161, 67%
+Elapsed time:      4m59.9s
+Transferring:
+ *                 1/GP5D_genomic_006_1.fastq.gz: 86% /7.933Gi, 49.822Mi/s, 21s
+ *                 1/GP5D_genomic_006_2.fastq.gz: 85% /7.963Gi, 50.677Mi/s, 23s
+ *                1/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 70% /2.599Gi, 49.803Mi/s, 15s
+ *      1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv:  5% /5.605Gi, 45.833Mi/s, 1m58s
+
+2026/02/09 17:26:02 INFO  : 1/HAP1HCT/HCTR2_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 17:26:02 INFO  : 1/HAP1HCT/Untitled.ipynb: Copied (new)
+2026/02/09 17:26:02 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb: Copied (new)
+2026/02/09 17:26:02 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb: Copied (new)
+2026/02/09 17:26:02 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb: Copied (new)
+2026/02/09 17:26:02 INFO  : 1/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Copied (new)
+2026/02/09 17:26:10 INFO  : 1/GP5D_genomic_006_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:26:10 INFO  : 1/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv: Copied (new)
+2026/02/09 17:26:12 INFO  : 1/GP5D_genomic_006_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:26:43 INFO  : 
+Transferred:   	   53.064 GiB / 63.946 GiB, 83%, 92.321 MiB/s, ETA 2m
+Checks:                 0 / 0, -, Listed 167
+Transferred:          117 / 161, 73%
+Elapsed time:       6m0.0s
+Transferring:
+ *      1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 41% /5.605Gi, 24.675Mi/s, 2m16s
+ * 1/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 84% /1.394Gi, 25.124Mi/s, 8s
+ *          1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: 18% /3.291Gi, 21.775Mi/s, 2m6s
+ *          1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: 17% /3.291Gi, 23.438Mi/s, 1m58s
+
+2026/02/09 17:26:55 INFO  : 1/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: Multi-thread Copied (new)
+2026/02/09 17:27:43 INFO  : 
+Transferred:   	   58.475 GiB / 63.946 GiB, 91%, 88.237 MiB/s, ETA 1m3s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          118 / 161, 73%
+Elapsed time:       7m0.0s
+Transferring:
+ *      1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 66% /5.605Gi, 21.790Mi/s, 1m29s
+ *          1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: 59% /3.291Gi, 21.862Mi/s, 1m1s
+ *          1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: 59% /3.291Gi, 21.806Mi/s, 1m2s
+ *              1/HAP1HCT/HAP1/HAP1_R1D41427.csv: 94% /1.095Gi, 22.240Mi/s, 2s
+
+2026/02/09 17:27:48 INFO  : 1/HAP1HCT/HAP1/HAP1_R1D41427.csv: Multi-thread Copied (new)
+2026/02/09 17:28:38 INFO  : 1/HAP1HCT/HAP1/HAP1_R2D41427.csv: Multi-thread Copied (new)
+2026/02/09 17:28:38 INFO  : 1/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb: Copied (new)
+2026/02/09 17:28:41 INFO  : 1/HAP1HCT/HAP1/HAP1_probdist.ipynb: Copied (new)
+2026/02/09 17:28:43 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png: Copied (new)
+2026/02/09 17:28:43 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png: Copied (new)
+2026/02/09 17:28:43 INFO  : 
+Transferred:   	   63.372 GiB / 63.946 GiB, 99%, 70.343 MiB/s, ETA 8s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          124 / 161, 77%
+Elapsed time:       8m0.0s
+Transferring:
+ *      1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 90% /5.605Gi, 19.645Mi/s, 29s
+ *          1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv:100% /3.291Gi, 20.088Mi/s, 0s
+ *          1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv:100% /3.291Gi, 18.811Mi/s, 0s
+ * 1/HAP1HCT/HAP1/HAPR1_D…UMIloss_binned_reg.png:100% /46.968Ki, 0/s, -
+
+2026/02/09 17:28:43 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png: Copied (new)
+2026/02/09 17:28:44 INFO  : 1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 17:28:44 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png: Copied (new)
+2026/02/09 17:28:45 INFO  : 1/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv: Copied (new)
+2026/02/09 17:28:45 INFO  : 1/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv: Copied (new)
+2026/02/09 17:28:45 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv: Copied (new)
+2026/02/09 17:28:46 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv: Copied (new)
+2026/02/09 17:28:46 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv: Copied (new)
+2026/02/09 17:28:46 INFO  : 1/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png: Copied (new)
+2026/02/09 17:28:47 INFO  : 1/HAP1HCT/HAP1/HAPR1_rawRC_dist.png: Copied (new)
+2026/02/09 17:28:47 INFO  : 1/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv: Copied (new)
+2026/02/09 17:28:47 INFO  : 1/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png: Copied (new)
+2026/02/09 17:28:47 INFO  : 1/HAP1HCT/HAP1/HAPR2_rawRC_dist.png: Copied (new)
+2026/02/09 17:28:47 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 17:28:47 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png: Copied (new)
+2026/02/09 17:28:47 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png: Copied (new)
+2026/02/09 17:28:48 INFO  : 1/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/TabToSSMD.py: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/Untitled.ipynb: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/merge.pair: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb: Copied (new)
+2026/02/09 17:28:49 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Copied (new)
+2026/02/09 17:28:57 INFO  : 1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: Multi-thread Copied (new)
+2026/02/09 17:28:57 INFO  : 
+Transferred:   	   63.946 GiB / 63.946 GiB, 100%, 56.284 MiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          161 / 161, 100%
+Elapsed time:      8m13.3s
+
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) TIME TOOK: 494 seconds : /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) SPEED TRANSFER: 133M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+2026/02/09 17:28:57 INFO  : 1/GP5D_genomic_003_2.fastq.gz: Deleted
+2026/02/09 17:28:57 INFO  : 1/GP5D_genomic_001_2.fastq.gz: Deleted
+2026/02/09 17:28:57 INFO  : 1/GP5D_genomic_002_1.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/GP5D_genomic_003_1.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/GP5D_genomic_001_1.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/GP5D_genomic_000_2.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/GP5D_genomic_002_2.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/GP5D_genomic_000_1.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/GP5D_genomic_004_2.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 17:28:58 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb: Deleted
+2026/02/09 17:28:58 INFO  : 1/GP5D_genomic_004_1.fastq.gz: Deleted
+2026/02/09 17:28:58 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb: Deleted
+2026/02/09 17:28:58 INFO  : 1/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 17:28:58 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 17:28:58 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 17:28:59 INFO  : 1/GP5D_genomic_005_1.fastq.gz: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: Deleted
+2026/02/09 17:28:59 INFO  : 1/GP5D_genomic_005_2.fastq.gz: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAP1_R1D41427.csv: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAP1_probdist.ipynb: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAP1_R2D41427.csv: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png: Deleted
+2026/02/09 17:28:59 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR1_rawRC_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAPR2_rawRC_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png: Deleted
+2026/02/09 17:29:00 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HAP1/TabToSSMD.py: Deleted
+2026/02/09 17:29:01 INFO  : 1/GP5D_genomic_006_2.fastq.gz: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT116_Dataanalysis.ipynb: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HAP1/Untitled.ipynb: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT116_Rep2_rawRC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HAP1/merge.pair: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 17:29:01 INFO  : 1/GP5D_genomic_006_1.fastq.gz: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR1_RC.csv: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR1_d4filtbeforeinput.csv: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR1_guideUC_Lib.csv.gz: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_Inputfilt.ipynb: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_Probdist.ipynb: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR2_guideUC_Lib.csv.gz: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR2_d4filtbeforeinput.csv: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1_D414guideUC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R1_guideUC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR1_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR2_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2_guideUC_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/Untitled.ipynb: Deleted
+2026/02/09 17:29:01 INFO  : 1/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/HAP1HCT/HCTR2_RC.csv: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg: Deleted
+2026/02/09 17:29:01 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : 1/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg: Deleted
+2026/02/09 17:29:02 INFO  : test.txt: Deleted
+2026/02/09 17:29:02 INFO  : 1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: Deleted
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd): /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT116_Rep1_rawRC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT116_Rep1_rawRC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT116_Dataanalysis.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT116_Dataanalysis.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR2_rawRC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR2_rawRC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/TabToSSMD.py s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/TabToSSMD.py
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2_guideUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2_guideUC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_rawRC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_rawRC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png
+cp /tmp/test-transfer/1/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg s3://ov3-transfer-test/test-transfer/1/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1_guideUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1_guideUC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_Inputfilt.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_Inputfilt.ipynb
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D14_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D14_guideType_UC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv
+cp /tmp/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg
+cp /tmp/test-transfer/1/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz
+cp /tmp/test-transfer/1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg
+cp /tmp/test-transfer/1/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg
+cp /tmp/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg
+cp /tmp/test-transfer/1/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg
+cp /tmp/test-transfer/1/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/Untitled.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/Untitled.ipynb
+cp /tmp/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT_Probdist.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_Probdist.ipynb
+cp /tmp/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D4_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D4_guideType_UC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz
+cp /tmp/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg
+cp /tmp/test-transfer/1/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg s3://ov3-transfer-test/test-transfer/1/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg
+cp /tmp/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg
+cp /tmp/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg
+cp /tmp/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg
+cp /tmp/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1_D414guideUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1_D414guideUC_dist.png
+cp /tmp/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg
+cp /tmp/test-transfer/1/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D27_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D27_guideType_UC_dist.png
+cp /tmp/test-transfer/1/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png
+cp /tmp/test-transfer/1/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg
+cp /tmp/test-transfer/1/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg
+cp /tmp/test-transfer/1/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg
+cp /tmp/test-transfer/1/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg
+cp /tmp/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png
+cp /tmp/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png
+cp /tmp/test-transfer/1/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/Untitled.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/Untitled.ipynb
+cp /tmp/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg
+cp /tmp/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png
+cp /tmp/test-transfer/1/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb
+cp /tmp/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/merge.pair s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/merge.pair
+cp /tmp/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv
+cp /tmp/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP1_probdist.ipynb s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP1_probdist.ipynb
+cp /tmp/test-transfer/1/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg
+cp /tmp/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg
+cp /tmp/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg
+cp /tmp/test-transfer/1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg
+cp /tmp/test-transfer/1/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg
+cp /tmp/test-transfer/1/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCT116_Rep2_rawRC_dist.png s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCT116_Rep2_rawRC_dist.png
+cp /tmp/test-transfer/1/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg
+cp /tmp/test-transfer/1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg
+cp /tmp/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg
+cp /tmp/test-transfer/1/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCTR1_guideUC_Lib.csv.gz s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR1_guideUC_Lib.csv.gz
+cp /tmp/test-transfer/1/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg
+cp /tmp/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg
+cp /tmp/test-transfer/1/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg
+cp /tmp/test-transfer/1/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg
+cp /tmp/test-transfer/1/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/1/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg
+cp /tmp/test-transfer/1/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg
+cp /tmp/test-transfer/1/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/1/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg
+cp /tmp/test-transfer/1/HAP1HCT/HCTR2_guideUC_Lib.csv.gz s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR2_guideUC_Lib.csv.gz
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv
+cp /tmp/test-transfer/1/HAP1HCT/HCTR2_d4filtbeforeinput.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR2_d4filtbeforeinput.csv
+cp /tmp/test-transfer/1/HAP1HCT/HCTR1_d4filtbeforeinput.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR1_d4filtbeforeinput.csv
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP1_R2D41427.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP1_R2D41427.csv
+cp /tmp/test-transfer/1/HAP1HCT/HCTR1_RC.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR1_RC.csv
+cp /tmp/test-transfer/1/HAP1HCT/HCTR2_RC.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR2_RC.csv
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP1_R1D41427.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP1_R1D41427.csv
+cp /tmp/test-transfer/1/GP5D_genomic_002_1.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_002_1.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_002_2.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_002_2.fastq.gz
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz
+cp /tmp/test-transfer/1/GP5D_genomic_001_1.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_001_1.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_003_1.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_003_1.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_001_2.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_001_2.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_000_1.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_000_1.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_004_2.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_004_2.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_000_2.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_000_2.fastq.gz
+cp /tmp/test-transfer/1/HAP1HCT/HCTR1_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR1_RC_PCT_Lib.csv
+cp /tmp/test-transfer/1/GP5D_genomic_003_2.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_003_2.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_004_1.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_004_1.fastq.gz
+cp /tmp/test-transfer/1/HAP1HCT/HCTR2_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HCTR2_RC_PCT_Lib.csv
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv
+cp /tmp/test-transfer/1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv
+cp /tmp/test-transfer/1/GP5D_genomic_005_1.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_005_1.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_005_2.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_005_2.fastq.gz
+cp /tmp/test-transfer/1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv s3://ov3-transfer-test/test-transfer/1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv
+cp /tmp/test-transfer/1/GP5D_genomic_006_1.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_006_1.fastq.gz
+cp /tmp/test-transfer/1/GP5D_genomic_006_2.fastq.gz s3://ov3-transfer-test/test-transfer/1/GP5D_genomic_006_2.fastq.gz
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) TIME TOOK: 265 seconds : /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) SPEED TRANSFER: 248M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_003_1.fastq.gz: Deleted
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_000_2.fastq.gz: Deleted
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_002_2.fastq.gz: Deleted
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_002_1.fastq.gz: Deleted
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_001_1.fastq.gz: Deleted
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_001_2.fastq.gz: Deleted
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_000_1.fastq.gz: Deleted
+2026/02/09 17:33:30 INFO  : 1/GP5D_genomic_003_2.fastq.gz: Deleted
+2026/02/09 17:33:31 INFO  : 1/GP5D_genomic_004_2.fastq.gz: Deleted
+2026/02/09 17:33:31 INFO  : 1/GP5D_genomic_004_1.fastq.gz: Deleted
+2026/02/09 17:33:31 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb: Deleted
+2026/02/09 17:33:31 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 17:33:31 INFO  : 1/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb: Deleted
+2026/02/09 17:33:31 INFO  : 1/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 17:33:31 INFO  : 1/GP5D_genomic_005_1.fastq.gz: Deleted
+2026/02/09 17:33:31 INFO  : 1/GP5D_genomic_005_2.fastq.gz: Deleted
+2026/02/09 17:33:31 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb: Deleted
+2026/02/09 17:33:31 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv: Deleted
+2026/02/09 17:33:32 INFO  : 1/GP5D_genomic_006_1.fastq.gz: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/HAP1_R1D41427.csv: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/HAP1_R2D41427.csv: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:33:32 INFO  : 1/GP5D_genomic_006_2.fastq.gz: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb: Deleted
+2026/02/09 17:33:32 INFO  : 1/HAP1HCT/HAP1/HAP1_probdist.ipynb: Deleted
+2026/02/09 17:33:33 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png: Deleted
+2026/02/09 17:33:33 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv: Deleted
+2026/02/09 17:33:33 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png: Deleted
+2026/02/09 17:33:33 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png: Deleted
+2026/02/09 17:33:33 INFO  : 1/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png: Deleted
+2026/02/09 17:33:33 INFO  : 1/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png: Deleted
+2026/02/09 17:33:33 INFO  : 1/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAPR2_rawRC_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAPR1_rawRC_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png: Deleted
+2026/02/09 17:33:34 INFO  : 1/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png: Deleted
+2026/02/09 17:33:35 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 17:33:35 INFO  : 1/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png: Deleted
+2026/02/09 17:33:35 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png: Deleted
+2026/02/09 17:33:35 INFO  : 1/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png: Deleted
+2026/02/09 17:33:35 INFO  : 1/HAP1HCT/HCT116_Dataanalysis.ipynb: Deleted
+2026/02/09 17:33:35 INFO  : 1/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png: Deleted
+2026/02/09 17:33:35 INFO  : 1/HAP1HCT/HCT116_Rep2_rawRC_dist.png: Deleted
+2026/02/09 17:33:36 INFO  : 1/HAP1HCT/HCTR1_RC.csv: Deleted
+2026/02/09 17:33:36 INFO  : 1/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png: Deleted
+2026/02/09 17:33:37 INFO  : 1/HAP1HCT/HAP1/TabToSSMD.py: Deleted
+2026/02/09 17:33:37 INFO  : 1/HAP1HCT/HAP1/Untitled.ipynb: Deleted
+2026/02/09 17:33:37 INFO  : 1/HAP1HCT/HCTR1_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:33:38 INFO  : 1/HAP1HCT/HCTR2_RC.csv: Deleted
+2026/02/09 17:33:38 INFO  : 1/HAP1HCT/HAP1/merge.pair: Deleted
+2026/02/09 17:33:38 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist.png: Deleted
+2026/02/09 17:33:38 INFO  : 1/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png: Deleted
+2026/02/09 17:33:38 INFO  : 1/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 17:33:38 INFO  : 1/HAP1HCT/HCTR2_RC_PCT_Lib.csv: Deleted
+2026/02/09 17:33:39 INFO  : 1/HAP1HCT/HCTR1_d4filtbeforeinput.csv: Deleted
+2026/02/09 17:33:39 INFO  : 1/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:39 INFO  : 1/HAP1HCT/HCTR1_guideUC_Lib.csv.gz: Deleted
+2026/02/09 17:33:39 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:39 INFO  : 1/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCTR2_d4filtbeforeinput.csv: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UC_dist.png: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCTR2_guideUC_Lib.csv.gz: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCT_Inputfilt.ipynb: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCT_Probdist.ipynb: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:33:40 INFO  : 1/HAP1HCT/HCT_R1D14_guideType_UC_dist.png: Deleted
+2026/02/09 17:33:41 INFO  : 1/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:41 INFO  : 1/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:41 INFO  : 1/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:41 INFO  : 1/HAP1HCT/HCT_R1D4_guideType_UC_dist.png: Deleted
+2026/02/09 17:33:41 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:41 INFO  : 1/HAP1HCT/HCT_R1_D414guideUC_dist.png: Deleted
+2026/02/09 17:33:41 INFO  : 1/HAP1HCT/HCT_R1_guideUC_dist.png: Deleted
+2026/02/09 17:33:42 INFO  : 1/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:42 INFO  : 1/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 17:33:42 INFO  : 1/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:33:42 INFO  : 1/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 17:33:42 INFO  : 1/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: Deleted
+2026/02/09 17:33:42 INFO  : 1/HAP1HCT/HCT_R2_guideUC_dist.png: Deleted
+2026/02/09 17:33:42 INFO  : 1/HAP1HCT/Untitled.ipynb: Deleted
+2026/02/09 17:33:42 INFO  : 1/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg: Deleted
+2026/02/09 17:33:42 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg: Deleted
+2026/02/09 17:33:43 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:43 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:43 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 17:33:43 INFO  : 1/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 17:33:43 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:33:43 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg: Deleted
+2026/02/09 17:33:43 INFO  : 1/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:33:44 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg: Deleted
+2026/02/09 17:33:44 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:44 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg: Deleted
+2026/02/09 17:33:44 INFO  : 1/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg: Deleted
+2026/02/09 17:33:44 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:33:45 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:33:46 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg: Deleted
+2026/02/09 17:33:47 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg: Deleted
+2026/02/09 17:33:48 INFO  : 1/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg: Deleted
+2026/02/09 17:33:48 INFO  : 1/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg: Deleted
+2026/02/09 17:33:48 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:33:48 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:33:48 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg: Deleted
+2026/02/09 17:33:49 INFO  : 1/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg: Deleted
+2026/02/09 17:33:50 INFO  : 1/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg: Deleted
+2026/02/09 17:33:51 INFO  : test.txt: Deleted
+2026/02/09 17:33:51 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 17:33:51 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg: Deleted
+2026/02/09 17:33:52 INFO  : 1/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg: Deleted
+2026/02/09 17:33:52 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg: Deleted
+2026/02/09 17:33:52 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg: Deleted
+2026/02/09 17:33:52 INFO  : 1/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg: Deleted
+2026/02/09 17:33:52 INFO  : 1/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg: Deleted
+SCRIPT-OUT: SIZE OF LOCAL-DIR 64G	/tmp/test-transfer
+SCRIPT-OUT: CLEANING: Removing /tmp/test-transfer...
+SCRIPT-OUT: TEST FOR openstack: Tape station -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 1/3: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /home/ubuntu/volume-mount/test-transfer/2
+receiving incremental file list
+created directory /home/ubuntu/volume-mount/test-transfer/2
+HAP1HCT/
+HAP1HCT/HCT116_Dataanalysis.ipynb
+HAP1HCT/HCT116_Rep1_rawRC_dist.png
+HAP1HCT/HCT116_Rep1_rawRC_dist_original.png
+HAP1HCT/HCT116_Rep2_rawRC_dist.png
+HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz
+HAP1HCT/HCTR1_RC.csv
+HAP1HCT/HCTR1_RC_PCT_Lib.csv
+HAP1HCT/HCTR1_d4filtbeforeinput.csv
+HAP1HCT/HCTR1_guideUC_Lib.csv.gz
+HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz
+HAP1HCT/HCTR2_RC.csv
+HAP1HCT/HCTR2_RC_PCT_Lib.csv
+HAP1HCT/HCTR2_d4filtbeforeinput.csv
+HAP1HCT/HCTR2_guideUC_Lib.csv.gz
+HAP1HCT/HCT_Inputfilt.ipynb
+HAP1HCT/HCT_Probdist.ipynb
+HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R1D14_guideType_UC_dist.png
+HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R1D27_guideType_UC_dist.png
+HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R1D4_guideType_UC_dist.png
+HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R1_D414guideUC_dist.png
+HAP1HCT/HCT_R1_guideUC_dist.png
+HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png
+HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png
+HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png
+HAP1HCT/HCT_R2_guideUC_dist.png
+HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv
+HAP1HCT/Untitled.ipynb
+HAP1HCT/.ipynb_checkpoints/
+HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb
+HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb
+HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb
+HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+HAP1HCT/HAP1/
+HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz
+HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv
+HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv
+HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv
+HAP1HCT/HAP1/HAP1_R1D41427.csv
+HAP1HCT/HAP1/HAP1_R2D41427.csv
+HAP1HCT/HAP1/HAP1_dataanalysis.ipynb
+HAP1HCT/HAP1/HAP1_probdist.ipynb
+HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png
+HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png
+HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png
+HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png
+HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv
+HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv
+HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv
+HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv
+HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv
+HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png
+HAP1HCT/HAP1/HAPR1_rawRC_dist.png
+HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv
+HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png
+HAP1HCT/HAP1/HAPR2_rawRC_dist.png
+HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png
+HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png
+HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png
+HAP1HCT/HAP1/HAP_R1_guideUC_dist.png
+HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png
+HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png
+HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png
+HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png
+HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png
+HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png
+HAP1HCT/HAP1/HAP_R2_guideUC_dist.png
+HAP1HCT/HAP1/TabToSSMD.py
+HAP1HCT/HAP1/Untitled.ipynb
+HAP1HCT/HAP1/merge.pair
+HAP1HCT/HAP1/.ipynb_checkpoints/
+HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb
+HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb
+HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+
+sent 1.65K bytes  received 23.76G bytes  58.45M bytes/sec
+total size is 23.75G  speedup is 1.00
+SCRIPT-OUT: RUN 1/3 TIME TOOK: 406 seconds: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 2/3: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /home/ubuntu/volume-mount/test-transfer/2
+receiving incremental file list
+./
+LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg
+SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg
+SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg
+SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg
+SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg
+SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg
+SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg
+SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg
+SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg
+SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg
+SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg
+SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg
+SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg
+SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg
+SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg
+SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg
+SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg
+SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg
+SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg
+SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg
+SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg
+SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg
+SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg
+SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg
+SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg
+SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg
+SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg
+SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg
+SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg
+SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg
+SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg
+SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg
+SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg
+SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg
+Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg
+Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg
+Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg
+Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg
+Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg
+Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg
+Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg
+Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg
+Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg
+Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg
+Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg
+Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg
+Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg
+TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg
+Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg
+
+sent 1.22K bytes  received 11.16M bytes  3.19M bytes/sec
+total size is 11.15M  speedup is 1.00
+SCRIPT-OUT: RUN 2/3 TIME TOOK: 3 seconds: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 3/3: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /home/ubuntu/volume-mount/test-transfer/2
+receiving incremental file list
+./
+GP5D_genomic_000_1.fastq.gz
+GP5D_genomic_000_2.fastq.gz
+GP5D_genomic_001_1.fastq.gz
+GP5D_genomic_001_2.fastq.gz
+GP5D_genomic_002_1.fastq.gz
+GP5D_genomic_002_2.fastq.gz
+GP5D_genomic_003_1.fastq.gz
+GP5D_genomic_003_2.fastq.gz
+GP5D_genomic_004_1.fastq.gz
+GP5D_genomic_004_2.fastq.gz
+GP5D_genomic_005_1.fastq.gz
+GP5D_genomic_005_2.fastq.gz
+GP5D_genomic_006_1.fastq.gz
+GP5D_genomic_006_2.fastq.gz
+
+sent 293 bytes  received 44.91G bytes  81.58M bytes/sec
+total size is 44.90G  speedup is 1.00
+SCRIPT-OUT: RUN 3/3 TIME TOOK: 550 seconds: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> /home/ubuntu/volume-mount/test-transfer/2: TOTAL TIME TOOK 959
+SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> /home/ubuntu/volume-mount/test-transfer/2: 69M/second
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone): /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+2026/02/09 17:51:03 INFO  : 
+Transferred:   	    3.608 GiB / 63.946 GiB, 6%, 73.100 MiB/s, ETA 14m5s
+Checks:                 0 / 0, -, Listed 167
+Transferred:            0 / 161, 0%
+Elapsed time:       1m0.0s
+Transferring:
+ *                 2/GP5D_genomic_000_1.fastq.gz: 53% /1.995Gi, 22.128Mi/s, 42s
+ *                 2/GP5D_genomic_000_2.fastq.gz: 48% /2.020Gi, 20.060Mi/s, 52s
+ *                 2/GP5D_genomic_001_1.fastq.gz: 37% /1.402Gi, 11.748Mi/s, 1m15s
+ *                 2/GP5D_genomic_001_2.fastq.gz: 70% /1.430Gi, 21.104Mi/s, 20s
+
+2026/02/09 17:51:30 INFO  : 2/GP5D_genomic_001_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:51:56 INFO  : 2/GP5D_genomic_000_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:51:59 INFO  : 2/GP5D_genomic_000_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:52:03 INFO  : 
+Transferred:   	    7.355 GiB / 63.946 GiB, 12%, 53.844 MiB/s, ETA 17m56s
+Checks:                 0 / 0, -, Listed 167
+Transferred:            3 / 161, 2%
+Elapsed time:       2m0.0s
+Transferring:
+ *                 2/GP5D_genomic_001_1.fastq.gz: 88% /1.402Gi, 11.473Mi/s, 14s
+ *                 2/GP5D_genomic_002_1.fastq.gz: 44% /1.276Gi, 19.692Mi/s, 36s
+ *                 2/GP5D_genomic_002_2.fastq.gz:  6% /1.304Gi, 21.249Mi/s, 58s
+ *                 2/GP5D_genomic_003_1.fastq.gz:  1% /1.444Gi, 0/s, -
+
+2026/02/09 17:52:29 INFO  : 2/GP5D_genomic_001_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:52:48 INFO  : 2/GP5D_genomic_002_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:53:03 INFO  : 
+Transferred:   	   11.279 GiB / 63.946 GiB, 18%, 70.691 MiB/s, ETA 12m42s
+Checks:                 0 / 0, -, Listed 167
+Transferred:            5 / 161, 3%
+Elapsed time:       3m0.0s
+Transferring:
+ *                 2/GP5D_genomic_002_2.fastq.gz: 92% /1.304Gi, 19.478Mi/s, 5s
+ *                 2/GP5D_genomic_003_1.fastq.gz: 78% /1.444Gi, 20.042Mi/s, 15s
+ *                 2/GP5D_genomic_003_2.fastq.gz: 44% /1.444Gi, 20.975Mi/s, 39s
+ *                 2/GP5D_genomic_004_1.fastq.gz:  6% /2.706Gi, 19.444Mi/s, 2m13s
+
+2026/02/09 17:53:11 INFO  : 2/GP5D_genomic_002_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:53:22 INFO  : 2/GP5D_genomic_003_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:53:43 INFO  : 2/GP5D_genomic_003_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:54:03 INFO  : 
+Transferred:   	   15.817 GiB / 63.946 GiB, 25%, 82.655 MiB/s, ETA 9m56s
+Checks:                 0 / 0, -, Listed 167
+Transferred:            8 / 161, 5%
+Elapsed time:       4m0.0s
+Transferring:
+ *                 2/GP5D_genomic_004_1.fastq.gz: 54% /2.706Gi, 24.083Mi/s, 52s
+ *                 2/GP5D_genomic_004_2.fastq.gz: 53% /1.910Gi, 20.325Mi/s, 45s
+ *                 2/GP5D_genomic_005_1.fastq.gz: 16% /4.568Gi, 24.383Mi/s, 2m40s
+ *                 2/GP5D_genomic_005_2.fastq.gz:  6% /4.418Gi, 22.917Mi/s, 3m5s
+
+2026/02/09 17:54:59 INFO  : 2/GP5D_genomic_004_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:55:03 INFO  : 
+Transferred:   	   19.880 GiB / 56.013 GiB, 35%, 59.736 MiB/s, ETA 10m19s
+Checks:                 0 / 0, -, Listed 167
+Transferred:            9 / 161, 6%
+Elapsed time:       5m0.0s
+Transferring:
+ *                 2/GP5D_genomic_004_1.fastq.gz: 93% /2.706Gi, 17.242Mi/s, 9s
+ *                 2/GP5D_genomic_005_1.fastq.gz: 40% /4.568Gi, 17.488Mi/s, 2m39s
+ *                 2/GP5D_genomic_005_2.fastq.gz: 28% /4.418Gi, 15.192Mi/s, 3m32s
+ *                 2/GP5D_genomic_006_1.fastq.gz: transferring
+
+2026/02/09 17:55:13 INFO  : 2/GP5D_genomic_004_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:56:03 INFO  : 
+Transferred:   	   23.530 GiB / 63.946 GiB, 37%, 62.416 MiB/s, ETA 11m3s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           10 / 161, 6%
+Elapsed time:       6m0.0s
+Transferring:
+ *                 2/GP5D_genomic_005_1.fastq.gz: 63% /4.568Gi, 15.203Mi/s, 1m51s
+ *                 2/GP5D_genomic_005_2.fastq.gz: 51% /4.418Gi, 15.458Mi/s, 2m21s
+ *                 2/GP5D_genomic_006_1.fastq.gz: 10% /7.933Gi, 16.874Mi/s, 7m11s
+ *                 2/GP5D_genomic_006_2.fastq.gz:  7% /7.963Gi, 16.791Mi/s, 7m29s
+
+2026/02/09 17:57:03 INFO  : 
+Transferred:   	   27.094 GiB / 63.946 GiB, 42%, 58.886 MiB/s, ETA 10m40s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           10 / 161, 6%
+Elapsed time:       7m0.0s
+Transferring:
+ *                 2/GP5D_genomic_005_1.fastq.gz: 83% /4.568Gi, 14.554Mi/s, 52s
+ *                 2/GP5D_genomic_005_2.fastq.gz: 71% /4.418Gi, 13.643Mi/s, 1m34s
+ *                 2/GP5D_genomic_006_1.fastq.gz: 22% /7.933Gi, 15.920Mi/s, 6m37s
+ *                 2/GP5D_genomic_006_2.fastq.gz: 17% /7.963Gi, 12.953Mi/s, 8m37s
+
+2026/02/09 17:57:44 INFO  : 2/GP5D_genomic_005_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:57:45 INFO  : 2/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg: Copied (new)
+2026/02/09 17:57:46 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:57:48 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:57:52 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:57:54 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:57:56 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg: Copied (new)
+2026/02/09 17:57:57 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg: Copied (new)
+2026/02/09 17:57:57 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:57:58 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:58:01 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:03 INFO  : 
+Transferred:   	   31.034 GiB / 63.946 GiB, 49%, 51.476 MiB/s, ETA 10m54s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           21 / 161, 13%
+Elapsed time:       8m0.0s
+Transferring:
+ *                 2/GP5D_genomic_005_2.fastq.gz: 98% /4.418Gi, 15.399Mi/s, 4s
+ *                 2/GP5D_genomic_006_1.fastq.gz: 36% /7.933Gi, 18.328Mi/s, 4m40s
+ *                 2/GP5D_genomic_006_2.fastq.gz: 28% /7.963Gi, 12.871Mi/s, 7m33s
+ * 2/SOX15_full_ENSG00000…AATAACATTGAT-m1-c4.svg:100% /129.906Ki, 64.950Ki/s, 0s
+
+2026/02/09 17:58:04 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:06 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:08 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:09 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:10 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:10 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:11 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:12 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:58:12 INFO  : 2/GP5D_genomic_005_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 17:58:12 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg: Copied (new)
+2026/02/09 17:58:13 INFO  : 2/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:13 INFO  : 2/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:14 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:14 INFO  : 2/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:15 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:15 INFO  : 2/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:16 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:17 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg: Copied (new)
+2026/02/09 17:58:18 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg: Copied (new)
+2026/02/09 17:58:18 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:19 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:19 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg: Copied (new)
+2026/02/09 17:58:20 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:21 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg: Copied (new)
+2026/02/09 17:58:21 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:21 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:21 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:22 INFO  : 2/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:22 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg: Copied (new)
+2026/02/09 17:58:23 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:23 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:24 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg: Copied (new)
+2026/02/09 17:58:25 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg: Copied (new)
+2026/02/09 17:58:26 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg: Copied (new)
+2026/02/09 17:58:26 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:26 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:27 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:27 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:58:28 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:29 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg: Copied (new)
+2026/02/09 17:58:31 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:32 INFO  : 2/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:33 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg: Copied (new)
+2026/02/09 17:58:33 INFO  : 2/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:34 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:35 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:36 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg: Copied (new)
+2026/02/09 17:58:37 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg: Copied (new)
+2026/02/09 17:58:37 INFO  : 2/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg: Copied (new)
+2026/02/09 17:58:37 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:38 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:39 INFO  : 2/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:39 INFO  : 2/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg: Copied (new)
+2026/02/09 17:58:40 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg: Copied (new)
+2026/02/09 17:58:41 INFO  : 2/HAP1HCT/HCT116_Dataanalysis.ipynb: Copied (new)
+2026/02/09 17:58:41 INFO  : 2/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png: Copied (new)
+2026/02/09 17:58:42 INFO  : 2/HAP1HCT/HCT116_Rep1_rawRC_dist.png: Copied (new)
+2026/02/09 17:58:43 INFO  : 2/HAP1HCT/HCT116_Rep2_rawRC_dist.png: Copied (new)
+2026/02/09 17:58:43 INFO  : 2/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz: Copied (new)
+2026/02/09 17:59:03 INFO  : 
+Transferred:   	   33.202 GiB / 63.946 GiB, 52%, 47.453 MiB/s, ETA 11m3s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           80 / 161, 50%
+Elapsed time:       9m0.0s
+Transferring:
+ *                 2/GP5D_genomic_006_1.fastq.gz: 47% /7.933Gi, 15.525Mi/s, 4m33s
+ *                 2/GP5D_genomic_006_2.fastq.gz: 38% /7.963Gi, 14.012Mi/s, 5m58s
+ *                        2/HAP1HCT/HCTR1_RC.csv: 39% /733.000Mi, 16.136Mi/s, 27s
+ *                2/HAP1HCT/HCTR1_RC_PCT_Lib.csv:  6% /2.134Gi, 9.666Mi/s, 3m30s
+
+2026/02/09 17:59:31 INFO  : 2/HAP1HCT/HCTR1_RC.csv: Multi-thread Copied (new)
+2026/02/09 17:59:38 INFO  : 2/HAP1HCT/HCTR1_d4filtbeforeinput.csv: Copied (new)
+2026/02/09 17:59:39 INFO  : 2/HAP1HCT/HCTR1_guideUC_Lib.csv.gz: Copied (new)
+2026/02/09 17:59:41 INFO  : 2/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz: Copied (new)
+2026/02/09 18:00:03 INFO  : 
+Transferred:   	   36.288 GiB / 63.946 GiB, 57%, 42.132 MiB/s, ETA 11m12s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           84 / 161, 52%
+Elapsed time:      10m0.0s
+Transferring:
+ *                 2/GP5D_genomic_006_1.fastq.gz: 60% /7.933Gi, 15.586Mi/s, 3m26s
+ *                 2/GP5D_genomic_006_2.fastq.gz: 49% /7.963Gi, 12.290Mi/s, 5m34s
+ *                2/HAP1HCT/HCTR1_RC_PCT_Lib.csv: 34% /2.134Gi, 9.474Mi/s, 2m31s
+ *                        2/HAP1HCT/HCTR2_RC.csv:  5% /883.652Mi, 2.857Mi/s, 4m51s
+
+2026/02/09 18:01:03 INFO  : 
+Transferred:   	   38.783 GiB / 63.946 GiB, 61%, 38.146 MiB/s, ETA 11m15s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           84 / 161, 52%
+Elapsed time:      11m0.0s
+Transferring:
+ *                 2/GP5D_genomic_006_1.fastq.gz: 71% /7.933Gi, 14.042Mi/s, 2m42s
+ *                 2/GP5D_genomic_006_2.fastq.gz: 61% /7.963Gi, 14.414Mi/s, 3m38s
+ *                2/HAP1HCT/HCTR1_RC_PCT_Lib.csv: 56% /2.134Gi, 7.010Mi/s, 2m16s
+ *                        2/HAP1HCT/HCTR2_RC.csv: 25% /883.652Mi, 3.045Mi/s, 3m36s
+
+2026/02/09 18:02:03 INFO  : 
+Transferred:   	   41.220 GiB / 63.946 GiB, 64%, 42.519 MiB/s, ETA 9m7s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           84 / 161, 52%
+Elapsed time:      12m0.0s
+Transferring:
+ *                 2/GP5D_genomic_006_1.fastq.gz: 82% /7.933Gi, 14.456Mi/s, 1m36s
+ *                 2/GP5D_genomic_006_2.fastq.gz: 71% /7.963Gi, 14.712Mi/s, 2m36s
+ *                2/HAP1HCT/HCTR1_RC_PCT_Lib.csv: 84% /2.134Gi, 10.954Mi/s, 31s
+ *                        2/HAP1HCT/HCTR2_RC.csv: 42% /883.652Mi, 2.513Mi/s, 3m22s
+
+2026/02/09 18:02:47 INFO  : 2/HAP1HCT/HCTR1_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 18:03:03 INFO  : 
+Transferred:   	   43.487 GiB / 63.946 GiB, 68%, 40.729 MiB/s, ETA 8m34s
+Checks:                 0 / 0, -, Listed 167
+Transferred:           85 / 161, 53%
+Elapsed time:      13m0.0s
+Transferring:
+ *                 2/GP5D_genomic_006_1.fastq.gz: 93% /7.933Gi, 15.862Mi/s, 35s
+ *                 2/GP5D_genomic_006_2.fastq.gz: 83% /7.963Gi, 17.109Mi/s, 1m19s
+ *                        2/HAP1HCT/HCTR2_RC.csv: 60% /883.652Mi, 3.055Mi/s, 1m54s
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv:  1% /2.599Gi, 4.444Mi/s, 9m48s
+
+2026/02/09 18:03:39 INFO  : 2/GP5D_genomic_006_1.fastq.gz: Multi-thread Copied (new)
+2026/02/09 18:03:42 INFO  : 2/HAP1HCT/HCTR2_d4filtbeforeinput.csv: Copied (new)
+2026/02/09 18:03:44 INFO  : 2/HAP1HCT/HCTR2_guideUC_Lib.csv.gz: Copied (new)
+2026/02/09 18:03:45 INFO  : 2/HAP1HCT/HCT_Inputfilt.ipynb: Copied (new)
+2026/02/09 18:03:45 INFO  : 2/HAP1HCT/HCT_Probdist.ipynb: Copied (new)
+2026/02/09 18:03:45 INFO  : 2/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:46 INFO  : 2/HAP1HCT/HCT_R1D14_guideType_UC_dist.png: Copied (new)
+2026/02/09 18:03:46 INFO  : 2/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R1D27_guideType_UC_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R1D4_guideType_UC_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R1_D414guideUC_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R1_guideUC_dist.png: Copied (new)
+2026/02/09 18:03:47 INFO  : 2/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:48 INFO  : 2/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 18:03:48 INFO  : 2/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:48 INFO  : 2/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:49 INFO  : 2/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 18:03:49 INFO  : 2/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png: Copied (new)
+2026/02/09 18:03:49 INFO  : 2/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png: Copied (new)
+2026/02/09 18:03:50 INFO  : 2/HAP1HCT/HCT_R2_guideUC_dist.png: Copied (new)
+2026/02/09 18:04:03 INFO  : 
+Transferred:   	   45.299 GiB / 63.946 GiB, 71%, 25.982 MiB/s, ETA 12m14s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          108 / 161, 67%
+Elapsed time:      14m0.0s
+Transferring:
+ *                 2/GP5D_genomic_006_2.fastq.gz: 93% /7.963Gi, 14.242Mi/s, 36s
+ *                        2/HAP1HCT/HCTR2_RC.csv: 76% /883.652Mi, 2.867Mi/s, 1m12s
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv:  6% /2.599Gi, 2.597Mi/s, 15m55s
+ *      2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv:  0% /5.605Gi, 29.998Mi/s, 3m10s
+
+2026/02/09 18:04:40 INFO  : 2/GP5D_genomic_006_2.fastq.gz: Multi-thread Copied (new)
+2026/02/09 18:04:41 INFO  : 2/HAP1HCT/Untitled.ipynb: Copied (new)
+2026/02/09 18:04:41 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb: Copied (new)
+2026/02/09 18:04:42 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb: Copied (new)
+2026/02/09 18:04:43 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb: Copied (new)
+2026/02/09 18:04:44 INFO  : 2/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Copied (new)
+2026/02/09 18:05:03 INFO  : 
+Transferred:   	   47.198 GiB / 63.946 GiB, 74%, 26.382 MiB/s, ETA 10m50s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          114 / 161, 71%
+Elapsed time:      15m0.0s
+Transferring:
+ *                        2/HAP1HCT/HCTR2_RC.csv: 98% /883.652Mi, 3.489Mi/s, 3s
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 14% /2.599Gi, 3.819Mi/s, 9m58s
+ *      2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 18% /5.605Gi, 16.100Mi/s, 4m52s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz:  2% /1.394Gi, 3.182Mi/s, 7m17s
+
+2026/02/09 18:05:34 INFO  : 2/HAP1HCT/HCTR2_RC.csv: Multi-thread Copied (new)
+2026/02/09 18:05:35 INFO  : 2/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv: Copied (new)
+2026/02/09 18:06:03 INFO  : 
+Transferred:   	   48.933 GiB / 63.946 GiB, 77%, 39.002 MiB/s, ETA 6m34s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          116 / 161, 72%
+Elapsed time:      16m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 20% /2.599Gi, 3.066Mi/s, 11m31s
+ *      2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 36% /5.605Gi, 18.870Mi/s, 3m14s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 14% /1.394Gi, 2.969Mi/s, 6m49s
+ *          2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: 11% /3.291Gi, 19.288Mi/s, 2m34s
+
+2026/02/09 18:07:03 INFO  : 
+Transferred:   	   51.633 GiB / 63.946 GiB, 81%, 42.806 MiB/s, ETA 4m54s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          116 / 161, 72%
+Elapsed time:      17m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 26% /2.599Gi, 3.033Mi/s, 10m46s
+ *      2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 57% /5.605Gi, 18.031Mi/s, 2m15s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 24% /1.394Gi, 2.529Mi/s, 7m6s
+ *          2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: 48% /3.291Gi, 18.830Mi/s, 1m32s
+
+2026/02/09 18:08:03 INFO  : 
+Transferred:   	   53.977 GiB / 63.946 GiB, 84%, 41.646 MiB/s, ETA 4m5s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          116 / 161, 72%
+Elapsed time:      18m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 33% /2.599Gi, 3.464Mi/s, 8m32s
+ *      2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 75% /5.605Gi, 17.932Mi/s, 1m18s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 35% /1.394Gi, 2.897Mi/s, 5m16s
+ *          2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: 78% /3.291Gi, 17.279Mi/s, 42s
+
+2026/02/09 18:08:51 INFO  : 2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 18:09:03 INFO  : 
+Transferred:   	   56.091 GiB / 63.946 GiB, 88%, 35.533 MiB/s, ETA 3m46s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          117 / 161, 73%
+Elapsed time:      19m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 41% /2.599Gi, 2.962Mi/s, 8m45s
+ *      2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: 90% /5.605Gi, 16.002Mi/s, 32s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 47% /1.394Gi, 3.076Mi/s, 4m2s
+ *          2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv:  4% /3.291Gi, 25.999Mi/s, 2m3s
+
+2026/02/09 18:09:34 INFO  : 2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: Multi-thread Copied (new)
+2026/02/09 18:10:03 INFO  : 
+Transferred:   	   58.445 GiB / 63.946 GiB, 91%, 39.236 MiB/s, ETA 2m23s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          118 / 161, 73%
+Elapsed time:      20m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 47% /2.599Gi, 2.951Mi/s, 7m52s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 62% /1.394Gi, 3.299Mi/s, 2m44s
+ *          2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: 35% /3.291Gi, 16.166Mi/s, 2m15s
+ *              2/HAP1HCT/HAP1/HAP1_R1D41427.csv: 45% /1.095Gi, 18.861Mi/s, 32s
+
+2026/02/09 18:10:30 INFO  : 2/HAP1HCT/HAP1/HAP1_R1D41427.csv: Multi-thread Copied (new)
+2026/02/09 18:11:03 INFO  : 
+Transferred:   	   60.682 GiB / 63.946 GiB, 95%, 39.575 MiB/s, ETA 1m24s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          119 / 161, 74%
+Elapsed time:      21m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 53% /2.599Gi, 3.098Mi/s, 6m40s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 73% /1.394Gi, 2.510Mi/s, 2m32s
+ *          2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: 59% /3.291Gi, 10.997Mi/s, 2m5s
+ *              2/HAP1HCT/HAP1/HAP1_R2D41427.csv: 63% /870.585Mi, 34.062Mi/s, 9s
+
+2026/02/09 18:11:31 INFO  : 2/HAP1HCT/HAP1/HAP1_R2D41427.csv: Multi-thread Copied (new)
+2026/02/09 18:11:32 INFO  : 2/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb: Copied (new)
+2026/02/09 18:11:33 INFO  : 2/HAP1HCT/HAP1/HAP1_probdist.ipynb: Copied (new)
+2026/02/09 18:11:33 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png: Copied (new)
+2026/02/09 18:11:34 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png: Copied (new)
+2026/02/09 18:11:34 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png: Copied (new)
+2026/02/09 18:11:35 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png: Copied (new)
+2026/02/09 18:11:36 INFO  : 2/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv: Copied (new)
+2026/02/09 18:11:36 INFO  : 2/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv: Copied (new)
+2026/02/09 18:11:37 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv: Copied (new)
+2026/02/09 18:11:37 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv: Copied (new)
+2026/02/09 18:11:38 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv: Copied (new)
+2026/02/09 18:11:38 INFO  : 2/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png: Copied (new)
+2026/02/09 18:11:38 INFO  : 2/HAP1HCT/HAP1/HAPR1_rawRC_dist.png: Copied (new)
+2026/02/09 18:11:39 INFO  : 2/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv: Copied (new)
+2026/02/09 18:11:39 INFO  : 2/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png: Copied (new)
+2026/02/09 18:11:39 INFO  : 2/HAP1HCT/HAP1/HAPR2_rawRC_dist.png: Copied (new)
+2026/02/09 18:11:40 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 18:11:40 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png: Copied (new)
+2026/02/09 18:11:40 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png: Copied (new)
+2026/02/09 18:11:40 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 18:11:41 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png: Copied (new)
+2026/02/09 18:11:41 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png: Copied (new)
+2026/02/09 18:11:41 INFO  : 2/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png: Copied (new)
+2026/02/09 18:11:41 INFO  : 2/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png: Copied (new)
+2026/02/09 18:11:42 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 18:11:42 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png: Copied (new)
+2026/02/09 18:11:44 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png: Copied (new)
+2026/02/09 18:11:46 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png: Copied (new)
+2026/02/09 18:11:46 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png: Copied (new)
+2026/02/09 18:11:47 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png: Copied (new)
+2026/02/09 18:11:47 INFO  : 2/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png: Copied (new)
+2026/02/09 18:11:47 INFO  : 2/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png: Copied (new)
+2026/02/09 18:11:47 INFO  : 2/HAP1HCT/HAP1/TabToSSMD.py: Copied (new)
+2026/02/09 18:11:48 INFO  : 2/HAP1HCT/HAP1/Untitled.ipynb: Copied (new)
+2026/02/09 18:11:48 INFO  : 2/HAP1HCT/HAP1/merge.pair: Copied (new)
+2026/02/09 18:11:49 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb: Copied (new)
+2026/02/09 18:11:49 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb: Copied (new)
+2026/02/09 18:11:50 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Copied (new)
+2026/02/09 18:12:03 INFO  : 
+Transferred:   	   62.484 GiB / 63.946 GiB, 98%, 26.400 MiB/s, ETA 56s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          158 / 161, 98%
+Elapsed time:      22m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 60% /2.599Gi, 3.080Mi/s, 5m41s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: 87% /1.394Gi, 3.646Mi/s, 47s
+ *          2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: 91% /3.291Gi, 18.144Mi/s, 15s
+
+2026/02/09 18:12:17 INFO  : 2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 18:13:03 INFO  : 
+Transferred:   	   63.149 GiB / 63.946 GiB, 99%, 6.219 MiB/s, ETA 2m11s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          159 / 161, 99%
+Elapsed time:      23m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 69% /2.599Gi, 3.586Mi/s, 3m47s
+ * 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz:100% /1.394Gi, 1.565Mi/s, 0s
+
+2026/02/09 18:13:14 INFO  : 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: Multi-thread Copied (new)
+2026/02/09 18:14:03 INFO  : 
+Transferred:   	   63.320 GiB / 63.946 GiB, 99%, 3.173 MiB/s, ETA 3m21s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          160 / 161, 99%
+Elapsed time:      24m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 75% /2.599Gi, 3.113Mi/s, 3m25s
+
+2026/02/09 18:15:03 INFO  : 
+Transferred:   	   63.481 GiB / 63.946 GiB, 99%, 2.668 MiB/s, ETA 2m58s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          160 / 161, 99%
+Elapsed time:      25m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 82% /2.599Gi, 2.841Mi/s, 2m47s
+
+2026/02/09 18:16:03 INFO  : 
+Transferred:   	   63.637 GiB / 63.946 GiB, 100%, 2.735 MiB/s, ETA 1m55s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          160 / 161, 99%
+Elapsed time:      26m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 88% /2.599Gi, 2.583Mi/s, 2m2s
+
+2026/02/09 18:17:03 INFO  : 
+Transferred:   	   63.793 GiB / 63.946 GiB, 100%, 2.176 MiB/s, ETA 1m11s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          160 / 161, 99%
+Elapsed time:      27m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: 94% /2.599Gi, 2.319Mi/s, 1m7s
+
+2026/02/09 18:18:03 INFO  : 
+Transferred:   	   63.946 GiB / 63.946 GiB, 100%, 1.458 MiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          160 / 161, 99%
+Elapsed time:      28m0.0s
+Transferring:
+ *                2/HAP1HCT/HCTR2_RC_PCT_Lib.csv:100% /2.599Gi, 1.550Mi/s, 0s
+
+2026/02/09 18:18:08 INFO  : 2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: Multi-thread Copied (new)
+2026/02/09 18:18:08 INFO  : 
+Transferred:   	   63.946 GiB / 63.946 GiB, 100%, 1.127 MiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 167
+Transferred:          161 / 161, 100%
+Elapsed time:      28m4.5s
+
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) TIME TOOK: 1685 seconds : /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) SPEED TRANSFER: 39M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_003_2.fastq.gz: Deleted
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_003_1.fastq.gz: Deleted
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_001_2.fastq.gz: Deleted
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_002_2.fastq.gz: Deleted
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_001_1.fastq.gz: Deleted
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_000_1.fastq.gz: Deleted
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_000_2.fastq.gz: Deleted
+2026/02/09 18:18:11 INFO  : 2/GP5D_genomic_002_1.fastq.gz: Deleted
+2026/02/09 18:18:12 INFO  : 2/GP5D_genomic_004_2.fastq.gz: Deleted
+2026/02/09 18:18:13 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb: Deleted
+2026/02/09 18:18:13 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 18:18:13 INFO  : 2/GP5D_genomic_004_1.fastq.gz: Deleted
+2026/02/09 18:18:13 INFO  : 2/GP5D_genomic_005_2.fastq.gz: Deleted
+2026/02/09 18:18:15 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb: Deleted
+2026/02/09 18:18:15 INFO  : 2/GP5D_genomic_006_1.fastq.gz: Deleted
+2026/02/09 18:18:15 INFO  : 2/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 18:18:15 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 18:18:15 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb: Deleted
+2026/02/09 18:18:16 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 18:18:16 INFO  : 2/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv: Deleted
+2026/02/09 18:18:16 INFO  : 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAP1_R1D41427.csv: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAP1_R2D41427.csv: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAP1_probdist.ipynb: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png: Deleted
+2026/02/09 18:18:17 INFO  : 2/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv: Deleted
+2026/02/09 18:18:18 INFO  : 2/GP5D_genomic_005_1.fastq.gz: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR1_rawRC_dist.png: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR2_rawRC_dist.png: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 18:18:18 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png: Deleted
+2026/02/09 18:18:19 INFO  : 2/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HAP1/TabToSSMD.py: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HAP1/Untitled.ipynb: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HAP1/merge.pair: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HCT116_Dataanalysis.ipynb: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HCT116_Rep1_rawRC_dist.png: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HCT116_Rep2_rawRC_dist.png: Deleted
+2026/02/09 18:18:20 INFO  : 2/GP5D_genomic_006_2.fastq.gz: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 18:18:20 INFO  : 2/HAP1HCT/HCTR1_RC.csv: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCTR1_d4filtbeforeinput.csv: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCTR1_guideUC_Lib.csv.gz: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCTR1_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCTR2_RC.csv: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCTR2_guideUC_Lib.csv.gz: Deleted
+2026/02/09 18:18:21 INFO  : 2/HAP1HCT/HCT_Inputfilt.ipynb: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_Probdist.ipynb: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_R1D14_guideType_UC_dist.png: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_R1D27_guideType_UC_dist.png: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:22 INFO  : 2/HAP1HCT/HCT_R1D4_guideType_UC_dist.png: Deleted
+2026/02/09 18:18:23 INFO  : 2/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:18:23 INFO  : 2/HAP1HCT/HCT_R1_guideUC_dist.png: Deleted
+2026/02/09 18:18:23 INFO  : 2/HAP1HCT/HCT_R1_D414guideUC_dist.png: Deleted
+2026/02/09 18:18:23 INFO  : 2/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:23 INFO  : 2/HAP1HCT/HCTR2_d4filtbeforeinput.csv: Deleted
+2026/02/09 18:18:23 INFO  : 2/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:18:23 INFO  : 2/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:24 INFO  : 2/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:24 INFO  : 2/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:18:24 INFO  : 2/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:18:24 INFO  : 2/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:18:24 INFO  : 2/HAP1HCT/HCT_R2_guideUC_dist.png: Deleted
+2026/02/09 18:18:24 INFO  : 2/HAP1HCT/Untitled.ipynb: Deleted
+2026/02/09 18:18:24 INFO  : 2/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg: Deleted
+2026/02/09 18:18:24 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:24 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:24 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:25 INFO  : 2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:18:26 INFO  : 2/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:18:27 INFO  : 2/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg: Deleted
+2026/02/09 18:18:27 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:18:27 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg: Deleted
+2026/02/09 18:18:27 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:18:27 INFO  : 2/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:27 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg: Deleted
+2026/02/09 18:18:27 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg: Deleted
+2026/02/09 18:18:28 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg: Deleted
+2026/02/09 18:18:28 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:28 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:18:28 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg: Deleted
+2026/02/09 18:18:29 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg: Deleted
+2026/02/09 18:18:30 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg: Deleted
+2026/02/09 18:18:30 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg: Deleted
+2026/02/09 18:18:31 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg: Deleted
+2026/02/09 18:18:31 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg: Deleted
+2026/02/09 18:18:31 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg: Deleted
+2026/02/09 18:18:31 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 18:18:31 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg: Deleted
+2026/02/09 18:18:31 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg: Deleted
+2026/02/09 18:18:31 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:18:32 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 18:18:32 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 18:18:32 INFO  : 2/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg: Deleted
+2026/02/09 18:18:32 INFO  : 2/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 18:18:32 INFO  : 2/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg: Deleted
+2026/02/09 18:18:33 INFO  : 2/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg: Deleted
+2026/02/09 18:18:34 INFO  : 2/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg: Deleted
+2026/02/09 18:18:34 INFO  : test.txt: Deleted
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd): /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP1_probdist.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP1_probdist.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_rawRC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_rawRC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR1_guideUC_Lib.csv.gz s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR1_guideUC_Lib.csv.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT116_Dataanalysis.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT116_Dataanalysis.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR2_rawRC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR2_rawRC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D4_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D4_guideType_UC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT116_Rep2_rawRC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT116_Rep2_rawRC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_Probdist.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_Probdist.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR2_guideUC_Lib.csv.gz s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR2_guideUC_Lib.csv.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/merge.pair s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/merge.pair
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg s3://ov3-transfer-test/test-transfer/2/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D27_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D27_guideType_UC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_Inputfilt.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_Inputfilt.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D14_guideType_UC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D14_guideType_UC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1_D414guideUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1_D414guideUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT116_Rep1_rawRC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT116_Rep1_rawRC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg s3://ov3-transfer-test/test-transfer/2/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1_guideUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1_guideUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/Untitled.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/Untitled.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg s3://ov3-transfer-test/test-transfer/2/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCT_R2_guideUC_dist.png s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCT_R2_guideUC_dist.png
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/Untitled.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/Untitled.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/TabToSSMD.py s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/TabToSSMD.py
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg s3://ov3-transfer-test/test-transfer/2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR2_d4filtbeforeinput.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR2_d4filtbeforeinput.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR1_d4filtbeforeinput.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR1_d4filtbeforeinput.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR1_RC.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR1_RC.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP1_R2D41427.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP1_R2D41427.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR2_RC.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR2_RC.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP1_R1D41427.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP1_R1D41427.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_002_1.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_002_1.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_002_2.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_002_2.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_001_1.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_001_1.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_003_2.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_003_2.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_003_1.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_003_1.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_001_2.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_001_2.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_004_2.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_004_2.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_000_1.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_000_1.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_000_2.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_000_2.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR1_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR1_RC_PCT_Lib.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_004_1.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_004_1.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HCTR2_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HCTR2_RC_PCT_Lib.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_005_2.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_005_2.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv s3://ov3-transfer-test/test-transfer/2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_006_1.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_006_1.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_006_2.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_006_2.fastq.gz
+cp /home/ubuntu/volume-mount/test-transfer/2/GP5D_genomic_005_1.fastq.gz s3://ov3-transfer-test/test-transfer/2/GP5D_genomic_005_1.fastq.gz
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) TIME TOOK: 306 seconds : /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) SPEED TRANSFER: 214M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_003_2.fastq.gz: Deleted
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_002_2.fastq.gz: Deleted
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_002_1.fastq.gz: Deleted
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_001_2.fastq.gz: Deleted
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_003_1.fastq.gz: Deleted
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_000_2.fastq.gz: Deleted
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_001_1.fastq.gz: Deleted
+2026/02/09 18:23:48 INFO  : 2/GP5D_genomic_000_1.fastq.gz: Deleted
+2026/02/09 18:23:49 INFO  : 2/GP5D_genomic_004_2.fastq.gz: Deleted
+2026/02/09 18:23:49 INFO  : 2/GP5D_genomic_004_1.fastq.gz: Deleted
+2026/02/09 18:23:49 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT116_Dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 18:23:49 INFO  : 2/GP5D_genomic_005_1.fastq.gz: Deleted
+2026/02/09 18:23:49 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT_Inputfilt-checkpoint.ipynb: Deleted
+2026/02/09 18:23:49 INFO  : 2/GP5D_genomic_005_2.fastq.gz: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/.ipynb_checkpoints/HCT_Probdist-checkpoint.ipynb: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_dataanalysis-checkpoint.ipynb: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/HAP1_probdist-checkpoint.ipynb: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/HAP1/.ipynb_checkpoints/Untitled-checkpoint.ipynb: Deleted
+2026/02/09 18:23:50 INFO  : 2/GP5D_genomic_006_2.fastq.gz: Deleted
+2026/02/09 18:23:50 INFO  : 2/GP5D_genomic_006_1.fastq.gz: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/HAP1/GWRSL_Input_RSLguide_RC.csv.gz: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/HAP1/GWRSL_LibNTC_Alltype.csv: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/HAP1/HAP1_R2D41427.csv: Deleted
+2026/02/09 18:23:50 INFO  : 2/HAP1HCT/HAP1/HAP1_R1D41427.csv: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAP1_dataanalysis.ipynb: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAP1R2_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAP1R1_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAP1_probdist.ipynb: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg.png: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D14guUMIloss_reg_binned.png: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_binned_reg.png: Deleted
+2026/02/09 18:23:51 INFO  : 2/HAP1HCT/HAP1/HAPR1_D4guUC_D27guUMIloss_reg.png: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR1_Gene_UCUL.csv: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR1_Guide_UCUL.csv: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc.csv: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_Genelfc2.csv: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR1_Mageck_lfc.csv: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR1_guidetype_UCdist_QC.png: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR1_rawRC_dist.png: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR2_Guide_UCUL.csv: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR2_guidetype_UCdist_QC.png: Deleted
+2026/02/09 18:23:52 INFO  : 2/HAP1HCT/HAP1/HAPR2_rawRC_dist.png: Deleted
+2026/02/09 18:23:53 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:23:53 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUC_dist.png: Deleted
+2026/02/09 18:23:53 INFO  : 2/HAP1HCT/HAP1/HAP_R1D14_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 18:23:53 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:23:53 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUC_dist.png: Deleted
+2026/02/09 18:23:53 INFO  : 2/HAP1HCT/HAP1/HAP_R1D27_guideTypeUMIloss_dist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R1D4_guideTypeUC_dist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R1_guideUC_dist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_guideType_UC_dist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R2D14_guide_UMIlossdist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_GeneTypeUMIloss_dist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_guideType_UC_dist.png: Deleted
+2026/02/09 18:23:54 INFO  : 2/HAP1HCT/HAP1/HAP_R2D27_guide_UMIlossdist.png: Deleted
+2026/02/09 18:23:55 INFO  : 2/HAP1HCT/HAP1/HAP_R2D4_guideType_UC_dist.png: Deleted
+2026/02/09 18:23:55 INFO  : 2/HAP1HCT/HAP1/HAP_R2_guideUC_dist.png: Deleted
+2026/02/09 18:23:55 INFO  : 2/HAP1HCT/HAP1/TabToSSMD.py: Deleted
+2026/02/09 18:23:55 INFO  : 2/HAP1HCT/HAP1/Untitled.ipynb: Deleted
+2026/02/09 18:23:55 INFO  : 2/HAP1HCT/HAP1/merge.pair: Deleted
+2026/02/09 18:23:55 INFO  : 2/HAP1HCT/HCT116_Dataanalysis.ipynb: Deleted
+2026/02/09 18:23:55 INFO  : 2/HAP1HCT/HCT116_Rep1_rawRC_dist.png: Deleted
+2026/02/09 18:23:56 INFO  : 2/HAP1HCT/HCT116_Rep1_rawRC_dist_original.png: Deleted
+2026/02/09 18:23:56 INFO  : 2/HAP1HCT/HCT116_Rep2_rawRC_dist.png: Deleted
+2026/02/09 18:23:56 INFO  : 2/HAP1HCT/HCTR1_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 18:23:57 INFO  : 2/HAP1HCT/HCTR1_d4filtbeforeinput.csv: Deleted
+2026/02/09 18:23:57 INFO  : 2/HAP1HCT/HCTR1_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:23:57 INFO  : 2/HAP1HCT/HCTR1_guideUC_Lib.csv.gz: Deleted
+2026/02/09 18:23:57 INFO  : 2/HAP1HCT/HCTR2_GeneUCUL_Lib.csv.gz: Deleted
+2026/02/09 18:23:57 INFO  : 2/HAP1HCT/HCTR2_d4filtbeforeinput.csv: Deleted
+2026/02/09 18:23:58 INFO  : 2/HAP1HCT/HCTR2_RC_PCT_Lib.csv: Deleted
+2026/02/09 18:23:58 INFO  : 2/HAP1HCT/HCTR2_guideUC_Lib.csv.gz: Deleted
+2026/02/09 18:23:58 INFO  : 2/HAP1HCT/HCT_Inputfilt.ipynb: Deleted
+2026/02/09 18:23:58 INFO  : 2/HAP1HCT/HCT_Probdist.ipynb: Deleted
+2026/02/09 18:23:58 INFO  : 2/HAP1HCT/HCT_R1D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCT_R1D14_guideType_UC_dist.png: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCT_R1D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCT_R1D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCT_R1D27_guideType_UC_dist.png: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCT_R1D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCT_R1D4_guideType_UC_dist.png: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCTR1_RC.csv: Deleted
+2026/02/09 18:23:59 INFO  : 2/HAP1HCT/HCTR2_RC.csv: Deleted
+2026/02/09 18:24:00 INFO  : 2/HAP1HCT/HCT_R1D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:24:00 INFO  : 2/HAP1HCT/HCT_R1_D414guideUC_dist.png: Deleted
+2026/02/09 18:24:00 INFO  : 2/HAP1HCT/HCT_R1_guideUC_dist.png: Deleted
+2026/02/09 18:24:00 INFO  : 2/HAP1HCT/HCT_R2D14_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:24:00 INFO  : 2/HAP1HCT/HCT_R2D14_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:24:01 INFO  : 2/HAP1HCT/HCT_R2D14_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:24:01 INFO  : 2/HAP1HCT/HCT_R2D27_GeneType_UMIloss_dist.png: Deleted
+2026/02/09 18:24:01 INFO  : 2/HAP1HCT/HCT_R2D27_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:24:01 INFO  : 2/HAP1HCT/HCT_R2D27_guideType_UMIloss_dist.png: Deleted
+2026/02/09 18:24:01 INFO  : 2/HAP1HCT/HCT_R2D4_guideType_UMIcount_dist.png: Deleted
+2026/02/09 18:24:01 INFO  : 2/HAP1HCT/HCT_R2_guideUC_dist.png: Deleted
+2026/02/09 18:24:02 INFO  : 2/HAP1HCT/Untitled.ipynb: Deleted
+2026/02/09 18:24:02 INFO  : 2/LEF1_DBD_TCCCGA20NGCC_AC_AAAGATCAAAGGRWW-m2-c4.svg: Deleted
+2026/02/09 18:24:02 INFO  : 2/HAP1HCT/Sandeep_UMIGuideNTC_Counts.csv: Deleted
+2026/02/09 18:24:02 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_AACAATNNNAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:02 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:02 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 18:24:02 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 18:24:03 INFO  : 2/SOX10_full_0_TGATTT20NTTA_AF_TGAATRTKCAGTCA-m1-c4.svg: Deleted
+2026/02/09 18:24:03 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_ACAATANCATTG-m1-c4.svg: Deleted
+2026/02/09 18:24:03 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_NTGAATNNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:24:03 INFO  : 2/SOX14_DBD_TACCTA30NTCC_AH_TCAATNNCATTGA-m1-c4.svg: Deleted
+2026/02/09 18:24:03 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_AACAATAMCATTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:03 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATCAATAACATTGAT-m1-c4.svg: Deleted
+2026/02/09 18:24:04 INFO  : 2/SOX15_full_ENSG00000129194_TGTTCA20NCTG_AF_ATGAATAACATTCAT-m1-c4.svg: Deleted
+2026/02/09 18:24:04 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_AACAATNNCATTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:04 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_ATCAATNNCATTGAT-m1-c4.svg: Deleted
+2026/02/09 18:24:04 INFO  : 2/SOX18_full_TGTGTC20NTGG_AE_ATGAATWYCATTCAT-m1-c4.svg: Deleted
+2026/02/09 18:24:04 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:04 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_AACAATNNNNAKTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:05 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_TCAATNNNATTGA-m1-c4.svg: Deleted
+2026/02/09 18:24:05 INFO  : 2/SOX21_DBD_TCAAAA40NAAA_AI_TGAATNNNAKTCA-m1-c4.svg: Deleted
+2026/02/09 18:24:05 INFO  : 2/SOX2_DBD_TAGTAA20NATT_AC_NAACAATNNNATTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:24:05 INFO  : 2/SOX2_DBD_TAGTAA20NATT_AC_NTGAATNNNATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:24:05 INFO  : 2/SOX2_DBD_TCCCCT20NCCC_AC_NATCAATNNNATTGATN-m1-c4.svg: Deleted
+2026/02/09 18:24:05 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NAACAATANCATTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX2_full_0_TGAATA20NTAA_AF_NATCAATANCATTGATN-m1-c4.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX4_DBD_TATCGC30NGCG_AH_NAACAATTKCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_AACAATNNNNAKTGTT-m1-c3.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_NAACAATKNYAKTGTTN-m1-c3.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX7_full_0_TGAGGC20NGGA_AF_NATGAATKNYAKTCATN-m1-c3.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_AACAATRTKCAGWGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:06 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_NAACAATKNYAGTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX8_DBD_TCTTTC30NTTG_AI_TGAATRTKCAGWCA-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_AACAATKNYAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_ATGAATKNYAGTC-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX8_full_TGTCTA20NTCG_AE_NATCAATKNYAGTGATN-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX9_DBD_TCTCAA20NGA_O_NAACAATRN-m1-c4.svg: Deleted
+2026/02/09 18:24:07 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_AACAATRTKCAGWGTT-m1-c3.svg: Deleted
+2026/02/09 18:24:08 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_ATCAATRTKCAGWGAT-m1-c3.svg: Deleted
+2026/02/09 18:24:08 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_ATGAATRTKCAGWCAT-m1-c3.svg: Deleted
+2026/02/09 18:24:08 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NAACAATKNYAGTGTTN-m1-c3.svg: Deleted
+2026/02/09 18:24:08 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NATCAATKNYAGTGATN-m1-c3.svg: Deleted
+2026/02/09 18:24:08 INFO  : 2/SOX9_full_TGGGGT20NGGT_W_NATGAATKNYAGTCATN-m1-c3.svg: Deleted
+2026/02/09 18:24:08 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_AACAATANCATTGTT-m1-c3.svg: Deleted
+2026/02/09 18:24:08 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_AACAATNNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 18:24:09 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_TCAATANCATTGA-m1-c4.svg: Deleted
+2026/02/09 18:24:09 INFO  : 2/SRY_DBD_TACTGC30NGTC_AH_TGAATANCATTCA-m1-c3.svg: Deleted
+2026/02/09 18:24:09 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_AACAATTGCAGTGTT-m1-c4.svg: Deleted
+2026/02/09 18:24:09 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_ATCAATTGCAGTGAT-m1-c4.svg: Deleted
+2026/02/09 18:24:09 INFO  : 2/Sox10_DBD_TGCTGT20NCG_P_ATGAATTGCAGTCAT-m1-c4.svg: Deleted
+2026/02/09 18:24:09 INFO  : 2/Sox11_DBD_TCTTCT20NGA_AF_AACAATTGCAGTGTT-m1-c3.svg: Deleted
+2026/02/09 18:24:09 INFO  : 2/Sox17_DBD_TATTGT20NGTG_AF_AACAATNNCATTGTT-m1-c3.svg: Deleted
+2026/02/09 18:24:10 INFO  : 2/Sox17_DBD_TATTGT20NGTG_AF_ATGAATWNCATTCAT-m1-c3.svg: Deleted
+2026/02/09 18:24:10 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_NACAATWNCATTGTN-m1-c4.svg: Deleted
+2026/02/09 18:24:11 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_NTGAATWNCATTCAN-m1-c4.svg: Deleted
+2026/02/09 18:24:11 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_TCAATWNCATTGA-m1-c4.svg: Deleted
+2026/02/09 18:24:11 INFO  : 2/Sox1_DBD_TGTCTA20NTCG_AC_TGAATNNNNATTCA-m1-c4.svg: Deleted
+2026/02/09 18:24:11 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NAACAATRNYATTGTTN-m1-c4.svg: Deleted
+2026/02/09 18:24:11 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NATCAATKNYATTGATN-m1-c4.svg: Deleted
+2026/02/09 18:24:11 INFO  : 2/Sox3_DBD_TGGGGT20NCG_Q_NATGAATKNYATTCATN-m1-c4.svg: Deleted
+2026/02/09 18:24:11 INFO  : 2/TCF7L1_Full_TGGACA20NCAT_AD_NAASATCAAAGN-m1-c4.svg: Deleted
+2026/02/09 18:24:12 INFO  : 2/Tcf7_DBD_TATATC20NCG_AC_NAAGATCAAAGG-m2-c4.svg: Deleted
+2026/02/09 18:24:13 INFO  : test.txt: Deleted
+SCRIPT-OUT: SIZE OF LOCAL-DIR 64G	/home/ubuntu/volume-mount/test-transfer
+SCRIPT-OUT: CLEANING: Removing /home/ubuntu/volume-mount/test-transfer...
+
