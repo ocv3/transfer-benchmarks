@@ -129,7 +129,7 @@ if [ "$1" == "openstack" ]; then
     clean_dir "$local_dest"
   done
 
-  wrMountDir="/home/ubuntu/wrMount"
+  wrMountDir=/home/ubuntu/wrMount
   test_s3_tool "wrMount" $wrMountDir "test_transfer \"$wrMountDir\" \"$2\""
   clear_s3_remote
 
@@ -152,7 +152,7 @@ elif [ "$1" == "headnode" ]; then
   clean_dir "$local_dest"
 
 elif [ "$1" == "wrmount" ]; then
-    wrMountDir="/home/ubuntu/wrMount"
+    wrMountDir=/home/ubuntu/wrMount
     test_s3_tool "wrMount" $wrMountDir "test_transfer \"$wrMountDir\" \"$2\""
     clear_s3_remote
 fi
