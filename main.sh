@@ -8,6 +8,7 @@ remote_test_dirs=(
 'rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/'
 )
 s3_path="ov3-transfer-test/test-transfer"
+s3_remote="ov3-s3"
 
 function echo-log() {
   echo "SCRIPT-OUT: $1"
@@ -58,7 +59,7 @@ function test_s3_tool() {
   if [ "$1" == "s5cmd" ]; then
     s5cmd --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
   elif [ "$1" == "rclone" ]; then
-    rclone copy "$2" -v "ov3-s3:$s3_path"
+    rclone copy "$2" -v "$s3_remote:$s3_path"
   elif [ "$1" == "aws" ]; then
     aws s3 --endpoint-url=https://cog.sanger.ac.uk cp --recursive "$2" "s3://$s3_path"
   elif [ "$1" == "aws-headnode" ]; then
@@ -78,10 +79,13 @@ function test_s3_tool() {
 
 function prep_env() {
   if [ "$1" == "headnode" ]; then
-    module load rclone-1.65.1/perl-5.38.0
+    module load /software/spack_environments/default/00/share/spack/modules/linux-ubuntu22.04-x86_64_v3/rclone-1.65.1/perl-5.38.0
   fi
-  clean_dir "$2"
-  clear_s3_remote
+  if [ "$1" == "openstack" ]; then
+    clean_dir "$2"
+    clear_s3_remote
+    mkdir -p "$2"
+  fi
 }
 
 function clean_dir() {
@@ -91,9 +95,9 @@ function clean_dir() {
 }
 
 function clear_s3_remote() {
-  echo-log "SIZE OF S3 REMOTE:$(rclone size "ov3-s3:$s3_path")"
+  echo-log "SIZE OF S3 REMOTE:$(rclone size "$s3_remote:$s3_path")"
   echo-log "CLEANING S3 REMOTE ON: $s3_path"
-  rclone delete -v "ov3-s3:$s3_path"
+  rclone delete -v "$s3_remote:$s3_path"
 }
 
 
@@ -118,7 +122,7 @@ if [ "$1" == "openstack" ]; then
     test_transfer "$local_dest/$dir_num" "$2"
 
     for tool in "${s3_tools[@]}"; do
-      rclone copy test.txt "ov3-s3:$s3_path"
+      rclone copy test.txt "$s3_remote:$s3_path"
       test_s3_tool "$tool" "$local_dest/"
       clear_s3_remote
     done
@@ -137,8 +141,6 @@ elif [ "$1" == "headnode" ]; then
   local_dest="/lustre/scratch126/gengen/teams/hgi/ov3/taipale_tapestation/test-transfer"
   s3_tools=('rclone' 'aws-headnode')
   prep_env "$1"
-  clean_dir "$local_dest"
-  mkdir -p "$local_dest"
 
   echo-log "TEST FOR $1: Tape station -> $local_dest"
   test_transfer "$local_dest" "$2"
