@@ -91,7 +91,7 @@ function prep_env() {
 function clean_dir() {
   echo-log "SIZE OF LOCAL-DIR $(du -sh "$1")"
   echo-log "CLEANING: Removing $1..."
-  sudo rm -rf "$1"
+  rm -rf "$1"
 }
 
 function clear_s3_remote() {
@@ -118,7 +118,6 @@ if [ "$1" == "openstack" ]; then
   for local_dest in "${local_dest_dirs[@]}"; do
     ((dir_num++))
     echo-log "TEST FOR $1: Tape station -> $local_dest/$dir_num"
-    mkdir -p "$local_dest"
     test_transfer "$local_dest/$dir_num" "$2"
 
     for tool in "${s3_tools[@]}"; do
