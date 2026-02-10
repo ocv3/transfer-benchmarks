@@ -10,8 +10,8 @@ remote_test_dirs=(
 s3_path="ov3-transfer-test/test-transfer"
 
 function echo-log() {
-  echo "$1"
-  echo "$1" >> "$(pwd)"/script-out.txt
+  echo "SCRIPT-OUT: $1"
+  echo "SCRIPT-OUT: $1" >> "$(pwd)"/script-out.txt
 }
 
 function test_transfer() {
@@ -21,7 +21,7 @@ function test_transfer() {
   avg=0
   for remote_dir in "${remote_test_dirs[@]}"; do
     ((c+=1))
-    echo-log "SCRIPT-OUT: RUN $((c))/${#remote_test_dirs[@]}: $remote_dir -> $1"
+    echo-log "RUN $((c))/${#remote_test_dirs[@]}: $remote_dir -> $1"
     sleep 1
     startTime=$(date +%s)
 
@@ -29,11 +29,12 @@ function test_transfer() {
 
     delta=$(("$(date +%s) - $startTime"))
     ((avg+=delta))
-    echo-log "SCRIPT-OUT: RUN $((c))/${#remote_test_dirs[@]} TIME TOOK: $delta seconds: $remote_dir -> $1"
+    echo-log "RUN $((c))/${#remote_test_dirs[@]} TIME TOOK: $delta seconds: $remote_dir -> $1"
   done
-  echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: TOTAL TIME TOOK $avg"
-  rate=$(( $(du -s / | cut -f1) / avg ))
-  echo-log "SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> $1: $( echo $rate | numfmt --to=iec )/second"
+  echo-log "BENCHMARK FOR Tape station -> $1:"
+  rate=$(( $(du -sb "$1" | cut -f1 | numfmt --from=iec --to=none) / avg ))
+  echo-log "TOTAL TIME TAKEN: $avg - RATE: $rate bytes/second - SIZE: $(du -s "$1")"
+  echo-log "DOWNLOAD AVG FOR Tape station -> $1: $( echo $rate | numfmt --to=iec )/second"
 }
 
 
@@ -52,7 +53,7 @@ function test_s3_tool() {
   # 1 Tool
   # 2 Source Local
   # 3 Optional transfer
-  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
+  echo-log "S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
   startTime=$(date +%s)
   if [ "$1" == "s5cmd" ]; then
     s5cmd --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
@@ -70,9 +71,9 @@ function test_s3_tool() {
     umount "$2"
   fi
   delta=$(("$(date +%s) - $startTime"))
-  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
-  rate=$(( $(du -s / | cut -f1) / delta ))
-  echo-log "SCRIPT-OUT: S3 TRANSFER TOOL TEST($1) SPEED TRANSFER: $( echo $rate | numfmt --to=iec )/second"
+  echo-log "S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
+  rate=$(( $(du -s "$2" | cut -f1) / delta ))
+  echo-log "S3 TRANSFER TOOL TEST($1) SPEED TRANSFER: $( echo $rate | numfmt --to=iec )/second"
 }
 
 function prep_env() {
@@ -84,14 +85,14 @@ function prep_env() {
 }
 
 function clean_dir() {
-  echo-log "SCRIPT-OUT: SIZE OF LOCAL-DIR $(du -sh "$1")"
-  echo-log "SCRIPT-OUT: CLEANING: Removing $1..."
+  echo-log "SIZE OF LOCAL-DIR $(du -sh "$1")"
+  echo-log "CLEANING: Removing $1..."
   sudo rm -rf "$1"
 }
 
 function clear_s3_remote() {
-  echo-log "SCRIPT-OUT: SIZE OF S3 REMOTE:$(rclone size "ov3-s3:$s3_path")"
-  echo-log "SCRIPT-OUT: CLEANING S3 REMOTE ON: $s3_path"
+  echo-log "SIZE OF S3 REMOTE:$(rclone size "ov3-s3:$s3_path")"
+  echo-log "CLEANING S3 REMOTE ON: $s3_path"
   rclone delete -v "ov3-s3:$s3_path"
 }
 
@@ -112,7 +113,7 @@ if [ "$1" == "openstack" ]; then
   dir_num=0
   for local_dest in "${local_dest_dirs[@]}"; do
     ((dir_num++))
-    echo-log "SCRIPT-OUT: TEST FOR $1: Tape station -> $local_dest/$dir_num"
+    echo-log "TEST FOR $1: Tape station -> $local_dest/$dir_num"
     mkdir -p "$local_dest"
     test_transfer "$local_dest/$dir_num" "$2"
 
@@ -127,7 +128,7 @@ if [ "$1" == "openstack" ]; then
 
   wrMountDir="/home/ubuntu/wrMount"
   test_s3_tool "wrMount" "$wrMountDir" "test_transfer \"$wrMountDir\" \"$2\""
-
+  clear_s3_remote
 
 elif [ "$1" == "headnode" ]; then
   # Will test
@@ -139,7 +140,7 @@ elif [ "$1" == "headnode" ]; then
   clean_dir "$local_dest"
   mkdir -p "$local_dest"
 
-  echo-log "SCRIPT-OUT: TEST FOR $1: Tape station -> $local_dest"
+  echo-log "TEST FOR $1: Tape station -> $local_dest"
   test_transfer "$local_dest" "$2"
 
   for tool in "${s3_tools[@]}"; do
