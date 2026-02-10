@@ -28,7 +28,7 @@ function test_transfer() {
 
     sshpass -p "$2" rsync -P -rtv -h is525@rds.uis.cam.ac.uk:"$remote_dir" "$1"
 
-    delta=$(("$(date +%s) - $startTime"))
+    delta=$(( $(date +%s) - startTime ))
     ((avg+=delta))
     echo-log "RUN $((c))/${#remote_test_dirs[@]} TIME TOOK: $delta seconds: $remote_dir -> $1"
   done
@@ -73,7 +73,7 @@ function test_s3_tool() {
   fi
   delta=$(( $(date +%s) - startTime ))
   echo-log "S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
-  rate=$(( $(du -sb "$1" | cut -f1 | numfmt --from=iec --to=none) / delta ))
+  rate=$(( $(du -sb "$2" | cut -f1 | numfmt --from=iec --to=none) / delta ))
   echo-log "S3 TRANSFER TOOL TEST($1) SPEED TRANSFER: $( echo $rate | numfmt --to=iec )/second"
 }
 
