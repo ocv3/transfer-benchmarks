@@ -71,7 +71,7 @@ function test_s3_tool() {
     kill "$wrMountPID"
     umount "$2"
   fi
-  delta=$(("$(date +%s) - $startTime"))
+  delta=$(( $(date +%s) - startTime ))
   echo-log "S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
   rate=$(( $(du -sb "$1" | cut -f1 | numfmt --from=iec --to=none) / delta ))
   echo-log "S3 TRANSFER TOOL TEST($1) SPEED TRANSFER: $( echo $rate | numfmt --to=iec )/second"
