@@ -11,8 +11,8 @@ function echo-log() {
 
 function echo-status() {
   time=$(date '+%Y-%m-%d %H:%M:%S')
-  printf "%s SCRIPT-OUT: \n\tAMOUNT TRANSFERRED: %s\n\t%s\n" "$time" "$1" "$2"
-  printf "%s SCRIPT-OUT: \n\tAMOUNT TRANSFERRED: %s\n\t%s\n" "$time" "$1" "$2" | gzip -9 > script-out.gz
+  printf "%s SCRIPT-OUT: \nAMOUNT TRANSFERRED: %s\n%s\n" "$time" "$1" "$2"
+  printf "%s SCRIPT-OUT: \nAMOUNT TRANSFERRED: %s\n%s\n" "$time" "$1" "$2" | gzip -9 > script-out.gz
 }
 
 echo-log "BEGINNING TRANSFER: $remote_dir -> $dest_dir"
