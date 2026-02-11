@@ -17,8 +17,9 @@ function echo-status() {
 
 
 function heartbeat() {
+  sleep 30
   while sleep 15; do
-    if [ "$(pgrep rsync | wc -l)" -gt 1 ]; then
+    if [ "$(pgrep rsync | wc -l)" -gt 0 ]; then
       size=$(du -sh $dest_dir | cut -f1)
       inodes=$(df -i $dest_dir | awk '{print $3}')
       echo-status "$size" "$inodes"
@@ -31,6 +32,6 @@ function heartbeat() {
 
 heartbeat &
 echo-log "BEGINNING TRANSFER: $remote_dir -> $dest_dir"
-rsync -P -av -h -r is525@rds.uis.cam.ac.uk:$remote_dir $dest_dir 1> >(gzip -9 >> res.gz) 2> >(gzip -9 >> errors.gz)
+sshpass -p "$1" rsync -a -v --stats --partial --progress -h -r --block-size=131072 --protocol=29 is525@rds.uis.cam.ac.uk:$remote_dir $dest_dir 1> >(gzip -9 >> res.gz) 2> >(gzip -9 >> errors.gz)
 
 
