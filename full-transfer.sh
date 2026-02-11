@@ -1,6 +1,6 @@
 #!/bin/bash
 
-remote_dir=rcs-ajt208-server-mirror/
+remote_dir=/rcs/project/ajt208/rcs-ajt208-server-mirror
 dest_dir=/home/ubuntu/volume-mount/full-transfer
 
 function echo-log() {
@@ -15,20 +15,22 @@ function echo-status() {
   printf "%s SCRIPT-OUT: \nAMOUNT TRANSFERRED: %s\n%s\n" "$time" "$1" "$2" | gzip -9 >> script-out.gz
 }
 
+
+function heartbeat() {
+  while sleep 15; do
+    if [ "$(pgrep rsync | wc -l)" -gt 1 ]; then
+      size=$(du -sh $dest_dir | cut -f1)
+      inodes=$(df -i $dest_dir | awk '{print $3}')
+      echo-status "$size" "$inodes"
+    else
+      echo-log "TRANSFER DIED"
+      exit
+    fi
+  done
+}
+
+heartbeat &
 echo-log "BEGINNING TRANSFER: $remote_dir -> $dest_dir"
-sshpass -p "$1" rsync -P -av -h is525@rds.uis.cam.ac.uk:$remote_dir $dest_dir 1> >(gzip -9 >> res.gz) 2> >(gzip -9 >> errors.gz) &
-transferPID=$!
+rsync -P -av -h -r is525@rds.uis.cam.ac.uk:$remote_dir $dest_dir 1> >(gzip -9 >> res.gz) 2> >(gzip -9 >> errors.gz)
 
 
-while sleep 15; do
-  case "$(ps -p $transferPID | wc -l)" in
-  2)
-    size=$(du -sh . | cut -f1)
-    inodes=$(df -i ~/volume-mount/ | awk '{print $3}')
-    echo-status "$size" "$inodes"
-    ;;
-  1)
-    echo-log "TRANSFER DIED"
-    ;;
-  esac
-done
