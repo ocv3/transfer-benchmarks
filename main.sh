@@ -44,10 +44,14 @@ function test_transfer() {
 function wrMount() {
   # 1: local path
   # 2: s3 path
+  # 3: command to run
   json_mount="[{\"Mount\":\"$1\",\"Targets\":[{\"Profile\":\"default\",\"Path\":\"$2\",\"Write\":true,\"Cache\":false}]}]"
+  wr mount -f -v --mount_json "$json_mount" &
+  serverPID=$!
   sleep 5
-  wr mount -f -v --mount_json "$json_mount" & serverPID=$!
-  echo $serverPID
+  $3
+  kill $serverPID
+  umount "$2"
 }
 
 function test_s3_tool() {
@@ -56,6 +60,7 @@ function test_s3_tool() {
   # 3 Optional transfer
   echo-log "S3 TRANSFER TOOL TEST($1): $2 -> s3://$s3_path/"
   startTime=$(date +%s)
+
   if [ "$1" == "s5cmd" ]; then
     s5cmd --endpoint-url https://cog.sanger.ac.uk cp "$2" "s3://$s3_path/"
   elif [ "$1" == "rclone" ]; then
@@ -66,11 +71,9 @@ function test_s3_tool() {
     /software/hgi/softpack/installs/groups/hgi//aws/1-scripts/aws s3 --endpoint-url=https://cog.sanger.ac.uk \
     cp --recursive "$2" "s3://$s3_path"
   elif [ "$1" == "wrMount" ]; then
-    wrMountPID=$(wrMount "$2" "$s3_path")
-    $3
-    kill "$wrMountPID"
-    umount "$2"
+    wrMount "$2" "$s3_path" "$3"
   fi
+
   delta=$(( $(date +%s) - startTime ))
   echo-log "S3 TRANSFER TOOL TEST($1) TIME TOOK: $delta seconds : $2 -> s3://$s3_path/"
   rate=$(( $(du -sb "$2" | cut -f1 | numfmt --from=iec --to=none) / delta ))
@@ -152,7 +155,8 @@ elif [ "$1" == "headnode" ]; then
   clean_dir "$local_dest"
 
 elif [ "$1" == "wrmount" ]; then
-    wrMountDir=/home/ubuntu/wrMount
-    test_s3_tool "wrMount" $wrMountDir "test_transfer \"$wrMountDir\" \"$2\""
-    clear_s3_remote
+  clear_s3_remote
+  wrMountDir=/home/ubuntu/wrMount
+  test_s3_tool "wrMount" $wrMountDir "test_transfer $wrMountDir $2"
+  clear_s3_remote
 fi
