@@ -1,0 +1,58 @@
+SCRIPT-OUT: SIZE OF LOCAL-DIR 
+SCRIPT-OUT: CLEANING: Removing /tmp/test-transfer...
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 0
+Total size: 0 B (0 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: SIZE OF LOCAL-DIR 
+SCRIPT-OUT: CLEANING: Removing /home/ubuntu/volume-mount/test-transfer...
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 0
+Total size: 0 B (0 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: TEST FOR openstack: Tape station -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 1/3: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 1/3 TIME TOOK: 532 seconds: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 2/3: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 2/3 TIME TOOK: 1 seconds: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 3/3: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /tmp/test-transfer/1
+SCRIPT-OUT: RUN 3/3 TIME TOOK: 679 seconds: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /tmp/test-transfer/1
+SCRIPT-OUT: BENCHMARK FOR Tape station -> /tmp/test-transfer/1:
+SCRIPT-OUT: TOTAL TIME TAKEN: 1212 - RATE: 56651136 bytes/second - SIZE: 67052372	/tmp/test-transfer/1
+SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> /tmp/test-transfer/1: 55M/second
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone): /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) TIME TOOK: 380 seconds : /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) SPEED TRANSFER: 173M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd): /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) TIME TOOK: 252 seconds : /tmp/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) SPEED TRANSFER: 260M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: SIZE OF LOCAL-DIR 64G	/tmp/test-transfer
+SCRIPT-OUT: CLEANING: Removing /tmp/test-transfer...
+SCRIPT-OUT: TEST FOR openstack: Tape station -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 1/3: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 1/3 TIME TOOK: 656 seconds: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 2/3: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 2/3 TIME TOOK: 2 seconds: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 3/3: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: RUN 3/3 TIME TOOK: 1637 seconds: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: BENCHMARK FOR Tape station -> /home/ubuntu/volume-mount/test-transfer/2:
+SCRIPT-OUT: TOTAL TIME TAKEN: 2295 - RATE: 29917724 bytes/second - SIZE: 67052372	/home/ubuntu/volume-mount/test-transfer/2
+SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> /home/ubuntu/volume-mount/test-transfer/2: 29M/second
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone): /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) TIME TOOK: 324 seconds : /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(rclone) SPEED TRANSFER: 203M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd): /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) TIME TOOK: 231 seconds : /home/ubuntu/volume-mount/test-transfer/ -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(s5cmd) SPEED TRANSFER: 284M/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 162
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: SIZE OF LOCAL-DIR 64G	/home/ubuntu/volume-mount/test-transfer
+SCRIPT-OUT: CLEANING: Removing /home/ubuntu/volume-mount/test-transfer...
