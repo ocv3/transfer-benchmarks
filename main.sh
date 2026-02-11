@@ -89,6 +89,12 @@ function prep_env() {
     clear_s3_remote
     mkdir -p "$2"
   fi
+  if [ "$1" == "wrmount" ]; then
+    umount "$2"
+    clean_dir "$2"
+    mkdir -p "$2"
+    clear_s3_remote
+  fi
 }
 
 function clean_dir() {
@@ -155,8 +161,8 @@ elif [ "$1" == "headnode" ]; then
   clean_dir "$local_dest"
 
 elif [ "$1" == "wrmount" ]; then
-  clear_s3_remote
   wrMountDir=/home/ubuntu/wrMount
+  prep_env "$1" "$wrMountDir"
   test_s3_tool "wrMount" $wrMountDir "test_transfer $wrMountDir $2"
   clear_s3_remote
 fi
