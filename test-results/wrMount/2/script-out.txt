@@ -1,0 +1,20 @@
+SCRIPT-OUT: SIZE OF LOCAL-DIR 4.0K	/home/ubuntu/wrMount
+SCRIPT-OUT: CLEANING: Removing /home/ubuntu/wrMount...
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 0
+Total size: 0 B (0 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(wrMount): /home/ubuntu/wrMount -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: RUN 1/3: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /home/ubuntu/wrMount
+SCRIPT-OUT: RUN 1/3 TIME TOOK: 764 seconds: rcs-ajt208-server-mirror/cashew/home/sanbot/HAP1HCT -> /home/ubuntu/wrMount
+SCRIPT-OUT: RUN 2/3: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /home/ubuntu/wrMount
+SCRIPT-OUT: RUN 2/3 TIME TOOK: 55 seconds: rcs-ajt208-server-mirror/coconut/var/www/jussi/data/HMG_svg/ -> /home/ubuntu/wrMount
+SCRIPT-OUT: RUN 3/3: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /home/ubuntu/wrMount
+SCRIPT-OUT: RUN 3/3 TIME TOOK: 1091 seconds: rcs-ajt208-server-mirror/nutcase/wrk/data/genomic/GP5d/ -> /home/ubuntu/wrMount
+SCRIPT-OUT: BENCHMARK FOR Tape station -> /home/ubuntu/wrMount:
+SCRIPT-OUT: TOTAL TIME TAKEN: 1910 - RATE: 35948260 bytes/second - SIZE: 0	/home/ubuntu/wrMount
+SCRIPT-OUT: DOWNLOAD AVG FOR Tape station -> /home/ubuntu/wrMount: 35M/second
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(wrMount) TIME TOOK: 1091 seconds : /home/ubuntu/wrMount -> s3://ov3-transfer-test/test-transfer/
+SCRIPT-OUT: S3 TRANSFER TOOL TEST(wrMount) SPEED TRANSFER: 0/second
+SCRIPT-OUT: SIZE OF S3 REMOTE:Total objects: 161
+Total size: 63.946 GiB (68661176991 Byte)
+SCRIPT-OUT: CLEANING S3 REMOTE ON: ov3-transfer-test/test-transfer
